@@ -1,30 +1,3 @@
-<!--
-  This example requires Tailwind CSS v2.0+
-
-  This example requires some changes to your config:
-
-  ```
-  // tailwind.config.js
-  const colors = require('tailwindcss/colors')
-
-  module.exports = {
-    // ...
-    theme: {
-      extend: {
-        colors: {
-          teal: colors.teal,
-          cyan: colors.cyan,
-        },
-      },
-    },
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
--->
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
@@ -43,21 +16,20 @@
 									alt=""
 								/>
 							</a>
-							<!--                            <div class="-mr-2 flex items-center md:hidden">-->
-							<!--                                <button type="button" class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">-->
-							<!--                                    <span class="sr-only">Open main menu</span>-->
-							<!--                                    &lt;!&ndash; Heroicon name: outline/bars-3 &ndash;&gt;-->
-							<!--                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">-->
-							<!--                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />-->
-							<!--                                    </svg>-->
-							<!--                                </button>-->
-							<!--                            </div>-->
+							                            <div class="-mr-2 flex items-center md:hidden">
+							                                <button type="button" class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">
+							                                    <span class="sr-only">Open main menu</span>
+							                                    <!-- Heroicon name: outline/bars-3 -->
+							                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+							                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+							                                    </svg>
+							                                </button>
+							                            </div>
 						</div>
 						<div class="hidden space-x-8 md:ml-10 md:flex">
 							<a href="#" class="text-base font-medium text-white hover:text-gray-300">Главная</a>
 
-							<a href="#" class="text-base font-medium text-white hover:text-gray-300"
-								>Производство</a
+							<a href="#" class="text-base font-medium text-white hover:text-gray-300">Производство</a
 							>
 
 							<a href="#" class="text-base font-medium text-white hover:text-gray-300">Информация</a
@@ -77,7 +49,7 @@
 															<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 															<svg
 																	xmlns="http://www.w3.org/2000/svg"
-																	class="h-5 w-5 text-gray-50"
+																	class="h-6 w-6 text-cyan-400"
 																	fill="none"
 																	viewBox="0 0 24 24"
 																	stroke="currentColor"
@@ -89,7 +61,7 @@
 																		d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
 																/>
 															</svg>
-															<a href="tel:777" class="text-gray-50 text-xs sm:text-lg font-bold "
+															<a href="tel:+74950808101" class="text-gray-50 text-xs sm:text-lg font-bold "
 															>+7 (495) 080-81-01</a
 															>
 														</div>
@@ -99,7 +71,7 @@
 															<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 															<svg
 																	xmlns="http://www.w3.org/2000/svg"
-																	class="h-5 w-5 text-gray-50"
+																	class="h-6 w-6 text-cyan-400"
 																	fill="none"
 																	viewBox="0 0 24 24"
 																	stroke="currentColor"
@@ -111,18 +83,18 @@
 																		d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
 																/>
 															</svg>
-															<p class="text-gray-50 text-xs sm:text-lg font-bold">biohim.org@yandex.ru</p>
+															<p class="text-gray-50 text-xs sm:text-xl font-bold">biohim.org@yandex.ru</p>
 														</div>
 													</div>
 												</div>
 
-												                        <button type="button" class="bg-gray-800 p-1 rounded-full text-cyan-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white animate-pulse">
-												                            <span class="sr-only">View notifications</span>
-												                            <!-- Heroicon name: outline/bell -->
-												                            <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-												                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-												                            </svg>
-												                        </button>
+<!--												                        <button type="button" class="bg-gray-800 p-1 rounded-full text-cyan-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white animate-pulse">-->
+<!--												                            <span class="sr-only">View notifications</span>-->
+<!--												                            &lt;!&ndash; Heroicon name: outline/bell &ndash;&gt;-->
+<!--												                            <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+<!--												                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />-->
+<!--												                            </svg>-->
+<!--												                        </button>-->
 											</div>
 										</div>
 									</div>
@@ -188,7 +160,7 @@
 		</header>
 		<main>
 			<div
-				class="bg-[url('https://egevpare.ru/wp-content/uploads/2022/04/1625178061_49-kartinkin-com-p-khimiya-fon-krasivie-foni-52.png')]  py-12 sm:pt-12 sm:pb-48 md:pb-36 lg:pb-12 lg:overflow-hidden "
+				class="bg-[url('https://egevpare.ru/wp-content/uploads/2022/04/1625178061_49-kartinkin-com-p-khimiya-fon-krasivie-foni-52.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:overflow-hidden "
 			>
 				<div class="mx-auto max-w-7xl lg:px-8">
 					<div class="lg:grid lg:grid-cols-2 lg:gap-4">
@@ -196,12 +168,11 @@
 							class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
 							<div class="lg:py-24 bg-main bg-opacity-60 px-4">
-								<a
-									class="inline-flex items-center rounded-full bg-black p-1 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
-									href="#"
+								<span
+									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
 									<span
-										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 py-0.5 text-sm font-semibold leading-5 text-white"
+										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 py-1 text-sm font-semibold leading-5 text-white"
 										>Перекись водорода</span
 									>
 									<span class="ml-4 text-sm">по оптовым ценам</span>
@@ -219,11 +190,11 @@
 											fill-rule="evenodd"
 										/>
 									</svg>
-								</a>
+								</span>
 								<h1
 									class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-7xl lg:mt-6 xl:text-7xl"
 								>
-									<span class="block">"БиоХим"</span>
+									<span class="block text-cyan-300">"БиоХим"</span>
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
@@ -279,10 +250,10 @@
 					<div>
 						<h2 class="text-lg font-semibold text-cyan-600">Производство</h2>
 						<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-							Заводы-производители
+							Производство перекиси водорода
 						</p>
 						<p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
-							Перекись водорода производится на территории Турции, Индии, Китая, Финляндии и
+							Перекись водорода производится на территории России, Турции, Индии, Китая, Финляндии и
 							поставляется напрямую с заводов изготовителей через наши склады.
 						</p>
 					</div>
@@ -540,10 +511,10 @@
 					<div class="md:ml-auto md:w-1/2 md:pl-10">
 						<h2 class="text-lg font-semibold text-gray-300">Поддержка</h2>
 						<p class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">
-							Нужна помощь?
+							Сопровождение сделки
 						</p>
 						<p class="mt-3 text-lg text-gray-300">
-							Наша компания сопровождает сделку от начала первой консультации до факта фактической отгрузки перекиси водорода клиенту.
+							Наши специалисты учавствует в процессе сделки от начала первой консультации до факта фактической отгрузки перекиси водорода клиенту.
 						</p>
 						<div class="mt-8">
 							<div class="inline-flex rounded-md shadow">
