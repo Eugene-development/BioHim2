@@ -308,7 +308,7 @@
 					</p>
 					<div class="mt-12">
 						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-							<div class="pt-6">
+							<div class="pt-8 shadow-xl">
 								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -337,14 +337,13 @@
 											Продукция
 										</h3>
 										<p class="mt-5 text-base text-gray-500">
-											Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit
-											morbi vitae lobortis.
+											Медицинская перекись водорода (35-40%) и техническая перекись водорода марки А(35-40%) и Б(30-40%).
 										</p>
 									</div>
 								</div>
 							</div>
 
-							<div class="pt-6">
+							<div class="pt-8 shadow-xl">
 								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -373,14 +372,13 @@
 											Стоимость
 										</h3>
 										<p class="mt-5 text-base text-gray-500">
-											Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur.
-											Temporibus qui illum aut.
+											Актуальная цена предоставляется только по запросу клиента через форму обратной связи на сайте
 										</p>
 									</div>
 								</div>
 							</div>
 
-							<div class="pt-6">
+							<div class="pt-8 shadow-xl">
 								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -409,14 +407,13 @@
 											Фасовка
 										</h3>
 										<p class="mt-5 text-base text-gray-500">
-											Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut
-											odit dolores qui.
+											Продукция фасуется в IBC-контейнеры по 1000 литров (1070 кг) или наливом в свою тару клиента
 										</p>
 									</div>
 								</div>
 							</div>
 
-							<div class="pt-6">
+							<div class="pt-8 shadow-xl">
 								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -445,14 +442,13 @@
 											Транспорт
 										</h3>
 										<p class="mt-5 text-base text-gray-500">
-											Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos
-											suscipit perspiciatis.
+											Транспортировка осуществляется железнодорожным и автомобильным спецтранспортом
 										</p>
 									</div>
 								</div>
 							</div>
 
-							<div class="pt-6">
+							<div class="pt-8 shadow-xl">
 								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -481,14 +477,13 @@
 											Хранение
 										</h3>
 										<p class="mt-5 text-base text-gray-500">
-											Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore
-											quaerat ipsum quaerat id.
+											Перекись хранится в помещениях складского назначения при температуре не выше 25-30 ºС
 										</p>
 									</div>
 								</div>
 							</div>
 
-							<div class="pt-6">
+							<div class="pt-8 shadow-xl">
 								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -514,11 +509,10 @@
 											</span>
 										</div>
 										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-											Отгрузка
+											Доставка
 										</h3>
 										<p class="mt-5 text-base text-gray-500">
-											Quia qui et est officia cupiditate qui consectetur. Ratione similique et
-											impedit ea ipsum et.
+											Отгрузка осуществляется со складов Москвы или Дзержинска до склада заказчика или самовывозом.
 										</p>
 									</div>
 								</div>
@@ -538,8 +532,7 @@
 					/>
 					<div
 						aria-hidden="true"
-						class="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"
-					/>
+						class="absolute inset-0 bg-gradient-to-r from-teal-500 to-cyan-600 mix-blend-multiply"></div>
 				</div>
 				<div
 					class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32"
