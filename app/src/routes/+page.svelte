@@ -35,7 +35,7 @@
 							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a
 							>
 
-							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Поддержка</a>
+							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Применение</a>
 						</div>
 					</div>
 									<div class="hidden md:flex md:items-center md:space-x-6">
@@ -493,8 +493,43 @@
 				</div>
 			</div>
 
+			<div class="bg-gradient-to-b from-white to-gray-50" id="4">
+				<div class="max-w-2xl mx-auto px-4 pt-6 pb-24 sm:px-6 sm:pt-12 sm:pb-36 lg:max-w-7xl lg:px-8">
+					<!-- Details section -->
+					<section aria-labelledby="details-heading">
+						<div class="text-center">
+							<h2 class="text-lg font-semibold text-cyan-600">Применение</h2>
+							<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+								Применение перекиси водорода
+							</p>
+							<p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+								Медицинская и техническая перекись водорода применяются в разных отраслях промышленности и в быту
+							</p>
+						</div>
+
+						<div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
+							<div>
+								<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bussein.jpg" alt="" class="w-full h-96 object-center object-cover" />
+								</div>
+									<p class="mt-8 text-base text-gray-500"><strong>Техническая перекись водорода</strong> активно применяется как в профессиональных сферах человеческой деятельности (промышленность, медицина, транспорт) так и в быту. Как правило, вещество используется для отбеливания, дезинфекции и обеззараживания различных поверхностей – мебели, оборудования, тканей, инструментов и прочих немедецинских материалов.</p>
+									<p class="mt-8 text-base text-gray-500">Применять техническую перекись разрешается только в хорошо вентилируемых помещениях и на открытых площадках. Средство быстро растворяется в обычной воде, не имеет запаха и цвета. Широко используется для очистки воды в бассейнах и искусственных прудах.</p>
+							</div>
+							<div>
+								<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
+									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/med.png" alt="" class="w-full h-96 object-center object-cover" />
+								</div>
+									<p class="mt-8 text-base text-gray-500"><strong>Перекись водорода медицинская</strong> применяется в медучреждениях и лабораториях для дезинфекции поверхностей в помещениях, жёсткой мебели, поверхностей аппаратов и приборов, санитарно-технического оборудования, белья, посуды , игрушек, предметов ухода за больными. А также для дезинфекции транспорта и предстерилизационной очистки медицинских изделий.</p>
+									<p class="mt-8 text-base text-gray-500">Перекись водорода медицинская обладает высокой антимикробной активностью в отношении бактерий, в том числе спорообразующих вирусов и грибов (возбудителей дерматофитий). Также эффективна в борьбе с коронавиросом, для оббезараживания воды и для очитки бассейнов.</p>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+
+
 			<!-- CTA Section -->
-			<div class="relative bg-gray-900" id="4">
+			<div class="relative bg-gray-900">
 				<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 					<img
 						class="h-full w-full object-cover"
@@ -566,7 +601,7 @@
 							<a href="#3" class="text-base text-gray-500"> Информация </a>
 						</div>
 						<div class="px-5 py-2">
-							<a href="#4" class="text-base text-gray-500"> Поддержка </a>
+							<a href="#4" class="text-base text-gray-500"> Применение </a>
 						</div>
 				</nav>
 				<p class="mt-8 text-center text-base text-gray-400">
