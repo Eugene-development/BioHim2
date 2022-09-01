@@ -221,9 +221,9 @@
 									</svg>
 								</a>
 								<h1
-									class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
+									class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-7xl lg:mt-6 xl:text-7xl"
 								>
-									<span class="block">Компания "БиоХим"</span>
+									<span class="block">"БиоХим"</span>
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
