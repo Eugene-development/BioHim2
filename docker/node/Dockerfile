@@ -1,4 +1,4 @@
-FROM node:16.13.0
+FROM node:16.14.0
 ENV APP_ROOT /app
 
 RUN mkdir ${APP_ROOT}
