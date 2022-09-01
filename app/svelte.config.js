@@ -11,7 +11,7 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			$content: 'src/content/layout',
+			$content: 'src/content/layout'
 		}
 	}
 };
