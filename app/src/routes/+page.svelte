@@ -277,8 +277,8 @@
 					</p>
 					<div class="mt-12">
 						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-							<div class="pt-8 drop-shadow-xl">
-								<div class="flow-root rounded-lg bg-main px-6 pb-8">
+							<div class="pt-8 shadow-xl shadow-gray-900">
+								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -312,8 +312,8 @@
 								</div>
 							</div>
 
-							<div class="pt-8 drop-shadow-xl">
-								<div class="flow-root rounded-lg bg-main px-6 pb-8">
+							<div class="pt-8 shadow-xl shadow-gray-900">
+								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -347,8 +347,8 @@
 								</div>
 							</div>
 
-							<div class="pt-8 drop-shadow-xl">
-								<div class="flow-root rounded-lg bg-main px-6 pb-8">
+							<div class="pt-8 shadow-xl shadow-gray-900">
+								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -383,8 +383,8 @@
 							</div>
 
 
-							<div class="pt-8 drop-shadow-xl">
-								<div class="flow-root rounded-lg bg-main px-6 pb-8">
+							<div class="pt-8 shadow-xl shadow-gray-900">
+								<div class="flow-root  bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -418,8 +418,8 @@
 								</div>
 							</div>
 
-							<div class="pt-8 drop-shadow-xl">
-								<div class="flow-root rounded-xl bg-main px-6 pb-8">
+							<div class="pt-8 shadow-xl shadow-gray-900">
+								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -453,8 +453,8 @@
 								</div>
 							</div>
 
-							<div class="pt-8 drop-shadow-xl ">
-								<div class="flow-root rounded-lg bg-main px-6 pb-8">
+							<div class="pt-8 shadow-xl shadow-gray-900">
+								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
