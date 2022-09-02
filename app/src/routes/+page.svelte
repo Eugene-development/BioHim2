@@ -1,7 +1,7 @@
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
-			<div class="bg-main py-6">
+			<div class="bg-main pt-6">
 				<nav
 					class="relative mx-auto flex max-w-full items-center justify-between px-4 sm:px-6"
 					aria-label="Global"
@@ -16,24 +16,22 @@
 									alt=""
 								/>
 							</a>
-							                            <div class="-mr-2 flex items-center md:hidden">
-							                                <button type="button" class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">
-							                                    <span class="sr-only">Open main menu</span>
-							                                    <!-- Heroicon name: outline/bars-3 -->
-							                                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-							                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-							                                    </svg>
-							                                </button>
-							                            </div>
+								<div class="-mr-2 flex items-center md:hidden">
+									<button type="button" class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">
+										<span class="sr-only">Open main menu</span>
+										<!-- Heroicon name: outline/bars-3 -->
+										<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+											<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+										</svg>
+									</button>
+								</div>
 						</div>
 						<div class="hidden space-x-8 md:ml-10 md:flex">
 							<a href="#1" class="text-base font-medium text-white hover:text-gray-300">Главная</a>
 
-							<a href="#2" class="text-base font-medium text-white hover:text-gray-300">Производство</a
-							>
+							<a href="#2" class="text-base font-medium text-white hover:text-gray-300">Производство</a>
 
-							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a
-							>
+							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a>
 
 							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Применение</a>
 						</div>
