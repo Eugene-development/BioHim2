@@ -152,7 +152,7 @@
 			<!--                            <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>-->
 			<!--                        </div>-->
 			<!--                        <div class="mt-6 px-5">-->
-			<!--                            <p class="text-center text-base font-medium text-gray-500">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>-->
+			<!--                            <p class="text-center text-base font-medium text-gray-700">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>-->
 			<!--                        </div>-->
 			<!--                    </div>-->
 			<!--                </div>-->
@@ -179,7 +179,7 @@
 									<!-- Heroicon name: mini/chevron-right -->
 									<svg
 										aria-hidden="true"
-										class="ml-2 h-5 w-5 text-gray-500"
+										class="ml-2 h-5 w-5 text-gray-700"
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -199,7 +199,7 @@
 								</h1>
 								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
 									Техническая и медицинская перекись водорода в IBC-контейнерах по
-									оптовым ценам от заводов производителей с доставкой
+									оптовым ценам от заводов производителей с доставкой или самовывозом. Вся продукция сопровождается сертификатами качества.
 								</p>
 
 								<div class="mt-10 sm:mt-12 py-12">
@@ -252,7 +252,7 @@
 						<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 							Производство перекиси водорода
 						</p>
-						<p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+						<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700">
 							Перекись водорода производится на территории России, Турции, Индии, Китая, Финляндии и
 							поставляется напрямую с заводов изготовителей через наши склады.
 						</p>
@@ -269,18 +269,18 @@
 
 			<!-- Feature section with grid -->
 			<div class="relative bg-white py-16 sm:py-24 lg:py-32" id="3">
-				<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-					<h2 class="text-lg font-semibold text-cyan-600">Информация</h2>
-					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+				<div class="mx-auto max-w-md px-4  sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+					<h2 class="text-lg font-semibold text-cyan-600 text-center">Информация</h2>
+					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
 						Общая информация о продукции
 					</p>
-					<p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+					<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700 text-center">
 						Перекись водорода или пероксид водорода (Н-О-О-Н) - прозрачная, бесцветная жидкость. Используется только в водных растворах, и смешивающаяся с водой в любых соотношениях. Молекулярный вес перекиси водорода 34,02.
 					</p>
 					<div class="mt-12">
 						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 							<div class="pt-8 shadow-xl">
-								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -304,18 +304,18 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
 											Продукция
 										</h3>
-										<p class="mt-5 text-base text-gray-500">
-											Медицинская перекись водорода (35-40%) и техническая перекись водорода марки А(35-40%) и Б(30-40%).
+										<p class="mt-5 text-base text-gray-50">
+											Медицинская перекись водорода (35-40%) и техническая перекись водорода марки А(35-40%) и Б(30-40%)
 										</p>
 									</div>
 								</div>
 							</div>
 
 							<div class="pt-8 shadow-xl">
-								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -339,10 +339,10 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
 											Стоимость
 										</h3>
-										<p class="mt-5 text-base text-gray-500">
+										<p class="mt-5 text-base text-gray-50">
 											Актуальная цена предоставляется только по запросу клиента через форму обратной связи на сайте
 										</p>
 									</div>
@@ -350,7 +350,43 @@
 							</div>
 
 							<div class="pt-8 shadow-xl">
-								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+								<div class="flow-root rounded-lg bg-main px-6 pb-8">
+									<div class="-mt-6">
+										<div>
+											<span
+													class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
+											>
+												<!-- Heroicon name: outline/server -->
+												<svg
+														class="h-6 w-6 text-white"
+														xmlns="http://www.w3.org/2000/svg"
+														fill="none"
+														viewBox="0 0 24 24"
+														stroke-width="1.5"
+														stroke="currentColor"
+														aria-hidden="true"
+												>
+													<path
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															d="M21.75 17.25v-.228a4.5 4.5 0 00-.12-1.03l-2.268-9.64a3.375 3.375 0 00-3.285-2.602H7.923a3.375 3.375 0 00-3.285 2.602l-2.268 9.64a4.5 4.5 0 00-.12 1.03v.228m19.5 0a3 3 0 01-3 3H5.25a3 3 0 01-3-3m19.5 0a3 3 0 00-3-3H5.25a3 3 0 00-3 3m16.5 0h.008v.008h-.008v-.008zm-3 0h.008v.008h-.008v-.008z"
+													/>
+												</svg>
+											</span>
+										</div>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
+											Доставка
+										</h3>
+										<p class="mt-5 text-base text-gray-50">
+											Отгрузка заказчику осуществляется со складов Москвы и Дзержинска спецтрансортом или самовывозом
+										</p>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="pt-8 shadow-2xl">
+								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -374,10 +410,10 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
 											Фасовка
 										</h3>
-										<p class="mt-5 text-base text-gray-500">
+										<p class="mt-5 text-base text-gray-50">
 											Продукция фасуется в IBC-контейнеры по 1000 литров (1070 кг) или наливом в свою тару клиента
 										</p>
 									</div>
@@ -385,42 +421,7 @@
 							</div>
 
 							<div class="pt-8 shadow-xl">
-								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
-									<div class="-mt-6">
-										<div>
-											<span
-												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
-											>
-												<!-- Heroicon name: outline/shield-check -->
-												<svg
-													class="h-6 w-6 text-white"
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													stroke-width="1.5"
-													stroke="currentColor"
-													aria-hidden="true"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
-													/>
-												</svg>
-											</span>
-										</div>
-										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-											Транспорт
-										</h3>
-										<p class="mt-5 text-base text-gray-500">
-											Транспортировка осуществляется железнодорожным и автомобильным спецтранспортом
-										</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="pt-8 shadow-xl">
-								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+								<div class="flow-root rounded-xl bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
@@ -444,10 +445,10 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
 											Хранение
 										</h3>
-										<p class="mt-5 text-base text-gray-500">
+										<p class="mt-5 text-base text-gray-50">
 											Перекись хранится в помещениях складского назначения при температуре не выше 25-30 ºС
 										</p>
 									</div>
@@ -455,39 +456,41 @@
 							</div>
 
 							<div class="pt-8 shadow-xl">
-								<div class="flow-root rounded-lg bg-gray-50 px-6 pb-8">
+								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
 											<span
-												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
+													class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-												<!-- Heroicon name: outline/server -->
+												<!-- Heroicon name: outline/shield-check -->
 												<svg
-													class="h-6 w-6 text-white"
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													stroke-width="1.5"
-													stroke="currentColor"
-													aria-hidden="true"
+														class="h-6 w-6 text-white"
+														xmlns="http://www.w3.org/2000/svg"
+														fill="none"
+														viewBox="0 0 24 24"
+														stroke-width="1.5"
+														stroke="currentColor"
+														aria-hidden="true"
 												>
 													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														d="M21.75 17.25v-.228a4.5 4.5 0 00-.12-1.03l-2.268-9.64a3.375 3.375 0 00-3.285-2.602H7.923a3.375 3.375 0 00-3.285 2.602l-2.268 9.64a4.5 4.5 0 00-.12 1.03v.228m19.5 0a3 3 0 01-3 3H5.25a3 3 0 01-3-3m19.5 0a3 3 0 00-3-3H5.25a3 3 0 00-3 3m16.5 0h.008v.008h-.008v-.008zm-3 0h.008v.008h-.008v-.008z"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
 													/>
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-lg font-medium tracking-tight text-gray-900">
-											Доставка
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
+											Гарантии
 										</h3>
-										<p class="mt-5 text-base text-gray-500">
-											Отгрузка осуществляется со складов Москвы или Дзержинска до склада заказчика или самовывозом.
+										<p class="mt-5 text-base text-gray-50">
+											Каждая партия отпускаемой продукции отгружается только после лабораторной проверки качества
 										</p>
 									</div>
 								</div>
 							</div>
+
+
 						</div>
 					</div>
 				</div>
@@ -502,7 +505,7 @@
 							<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 								Применение перекиси водорода
 							</p>
-							<p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+							<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700">
 								Медицинская и техническая перекись водорода применяются в разных отраслях промышленности и в быту
 							</p>
 						</div>
@@ -512,15 +515,15 @@
 								<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
 									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bussein.jpg" alt="" class="w-full h-96 object-center object-cover" />
 								</div>
-									<p class="mt-8 text-base text-gray-500"><strong>Техническая перекись водорода</strong> активно применяется как в профессиональных сферах человеческой деятельности (промышленность, медицина, транспорт) так и в быту. Как правило, вещество используется для отбеливания, дезинфекции и обеззараживания различных поверхностей – мебели, оборудования, тканей, инструментов и прочих немедецинских материалов.</p>
-									<p class="mt-8 text-base text-gray-500">Применять техническую перекись разрешается только в хорошо вентилируемых помещениях и на открытых площадках. Средство быстро растворяется в обычной воде, не имеет запаха и цвета. Широко используется для очистки воды в бассейнах и искусственных прудах.</p>
+									<p class="mt-8 text-base text-gray-700"><strong>Техническая перекись водорода</strong> активно применяется как в профессиональных сферах человеческой деятельности (промышленность, медицина, транспорт) так и в быту. Как правило, вещество используется для отбеливания, дезинфекции и обеззараживания различных поверхностей – мебели, оборудования, тканей, инструментов и прочих немедецинских материалов.</p>
+									<p class="mt-8 text-base text-gray-700">Применять техническую перекись разрешается только в хорошо вентилируемых помещениях и на открытых площадках. Средство быстро растворяется в обычной воде, не имеет запаха и цвета. Широко используется для очистки воды в бассейнах и искусственных прудах.</p>
 							</div>
 							<div>
 								<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/med.png" alt="" class="w-full h-96 object-center object-cover" />
+									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/fotohim2.jpg" alt="" class="w-full h-96 object-center object-cover" />
 								</div>
-									<p class="mt-8 text-base text-gray-500"><strong>Перекись водорода медицинская</strong> применяется в медучреждениях и лабораториях для дезинфекции поверхностей в помещениях, жёсткой мебели, поверхностей аппаратов и приборов, санитарно-технического оборудования, белья, посуды , игрушек, предметов ухода за больными. А также для дезинфекции транспорта и предстерилизационной очистки медицинских изделий.</p>
-									<p class="mt-8 text-base text-gray-500">Перекись водорода медицинская обладает высокой антимикробной активностью в отношении бактерий, в том числе спорообразующих вирусов и грибов (возбудителей дерматофитий). Также эффективна в борьбе с коронавиросом, для оббезараживания воды и для очитки бассейнов.</p>
+									<p class="mt-8 text-base text-gray-700"><strong>Перекись водорода медицинская</strong> применяется в медучреждениях и лабораториях для дезинфекции поверхностей в помещениях, жёсткой мебели, поверхностей аппаратов и приборов, санитарно-технического оборудования, белья, посуды , игрушек, предметов ухода за больными. А также для дезинфекции транспорта и предстерилизационной очистки медицинских изделий.</p>
+									<p class="mt-8 text-base text-gray-700">Перекись водорода медицинская обладает высокой антимикробной активностью в отношении бактерий, в том числе спорообразующих вирусов и грибов (возбудителей дерматофитий). Также эффективна в борьбе с коронавиросом, для оббезараживания воды и для очитки бассейнов.</p>
 							</div>
 						</div>
 					</section>
@@ -557,7 +560,7 @@
 									href="#"
 									class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
 								>
-									Отправить запрос
+									Отправить запрос на цену
 									<!-- Heroicon name: mini/arrow-top-right-on-square -->
 									<svg
 										class="-mr-1 ml-3 h-5 w-5 text-gray-400"
@@ -592,16 +595,16 @@
 			<div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
 				<nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
 						<div class="px-5 py-2">
-							<a href="#1" class="text-base text-gray-500"> Главная </a>
+							<a href="#1" class="text-base text-gray-700"> Главная </a>
 						</div>
 						<div class="px-5 py-2">
-							<a href="#2" class="text-base text-gray-500"> Производство </a>
+							<a href="#2" class="text-base text-gray-700"> Производство </a>
 						</div>
 						<div class="px-5 py-2">
-							<a href="#3" class="text-base text-gray-500"> Информация </a>
+							<a href="#3" class="text-base text-gray-700"> Информация </a>
 						</div>
 						<div class="px-5 py-2">
-							<a href="#4" class="text-base text-gray-500"> Применение </a>
+							<a href="#4" class="text-base text-gray-700"> Применение </a>
 						</div>
 				</nav>
 				<p class="mt-8 text-center text-base text-gray-400">
