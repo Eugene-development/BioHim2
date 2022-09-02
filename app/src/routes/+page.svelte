@@ -279,7 +279,7 @@
 					</p>
 					<div class="mt-12">
 						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
-							<div class="pt-8 shadow-xl">
+							<div class="pt-8 drop-shadow-xl">
 								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -314,7 +314,7 @@
 								</div>
 							</div>
 
-							<div class="pt-8 shadow-xl">
+							<div class="pt-8 drop-shadow-xl">
 								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -349,7 +349,7 @@
 								</div>
 							</div>
 
-							<div class="pt-8 shadow-xl">
+							<div class="pt-8 drop-shadow-xl">
 								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -385,7 +385,7 @@
 							</div>
 
 
-							<div class="pt-8 shadow-2xl">
+							<div class="pt-8 drop-shadow-xl">
 								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -420,7 +420,7 @@
 								</div>
 							</div>
 
-							<div class="pt-8 shadow-xl">
+							<div class="pt-8 drop-shadow-xl">
 								<div class="flow-root rounded-xl bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -455,7 +455,7 @@
 								</div>
 							</div>
 
-							<div class="pt-8 shadow-xl">
+							<div class="pt-8 drop-shadow-xl ">
 								<div class="flow-root rounded-lg bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
@@ -532,7 +532,7 @@
 
 
 			<!-- CTA Section -->
-			<div class="relative bg-gray-900">
+			<div class="relative bg-main">
 				<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 					<img
 						class="h-full w-full object-cover"
