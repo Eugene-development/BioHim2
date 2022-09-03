@@ -34,6 +34,9 @@
 							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a>
 
 							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Применение</a>
+
+							<a href="#5" class="text-base font-medium text-white hover:text-gray-300">О нас</a>
+
 						</div>
 					</div>
 									<div class="hidden md:flex md:items-center md:space-x-6">
@@ -524,7 +527,7 @@
 
 
 
-			<div class="bg-gray-100">
+			<div class="bg-gray-100" id="5">
 				<div class="pt-16 sm:pt-16 lg:pt-20">
 					<div class="text-lg max-w-prose mx-auto">
 						<h1>
@@ -540,8 +543,10 @@
 							<div class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
 								<div class="flex-1 bg-white px-6 py-8 lg:p-12">
 									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">ООО ТК "ФОРВАРД ЛАЙН"</h3>
-									<p class="mt-6 text-base text-gray-700">Более 8 лет мы занимаемся оптовой торговлей химической продукцией. За это время зарекомендовали себя как надёжного и лояльного контрагента. Приглашаем вас к взаимовыгодному сотрудничеству на постоянной основе.</p>
+									<p class="mt-6 text-base text-gray-700">Более 8 лет мы занимаемся оптовой торговлей химической продукцией и, в частности, медицинской и технической перекисью водорода. За это время зарекомендовали себя как надёжного и лояльного контрагента, с которым можно иметь длительные деловые отношения. Приглашаем вас к взаимовыгодному сотрудничеству на постоянной основе.</p>
 									<p class="mt-6 text-base text-gray-700">Юридический адрес: Нижегородская область, г. Дзержинск, б-р Мира д. 27а, офис 302</p>
+									<p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p>
+									<p class="mt-6 text-base text-gray-700">Ведущий специалист: Иванов Иван Иванович</p>
 									<div class="mt-8">
 										<div class="flex items-center">
 											<h4 class="flex-shrink-0 pr-4 bg-white text-base font-semibold text-cyan-600">Реквизиты</h4>
@@ -692,6 +697,9 @@
 						</div>
 						<div class="px-5 py-2">
 							<a href="#4" class="text-base text-gray-700"> Применение </a>
+						</div>
+						<div class="px-5 py-2">
+							<a href="#5" class="text-base text-gray-700"> О нас </a>
 						</div>
 				</nav>
 				<p class="mt-8 text-center text-base text-gray-400">
