@@ -16,89 +16,106 @@
 									alt=""
 								/>
 							</a>
-								<div class="-mr-2 flex items-center md:hidden">
-									<button type="button" class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white" aria-expanded="false">
-										<span class="sr-only">Open main menu</span>
-										<!-- Heroicon name: outline/bars-3 -->
-										<svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-											<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-										</svg>
-									</button>
-								</div>
+							<div class="-mr-2 flex items-center md:hidden">
+								<button
+									type="button"
+									class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white"
+									aria-expanded="false"
+								>
+									<span class="sr-only">Open main menu</span>
+									<!-- Heroicon name: outline/bars-3 -->
+									<svg
+										class="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										aria-hidden="true"
+									>
+										<path
+											stroke-linecap="round"
+											stroke-linejoin="round"
+											d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+										/>
+									</svg>
+								</button>
+							</div>
 						</div>
 						<div class="hidden space-x-8 md:ml-10 md:flex">
 							<a href="#1" class="text-base font-medium text-white hover:text-gray-300">Главная</a>
 
-							<a href="#2" class="text-base font-medium text-white hover:text-gray-300">Производство</a>
+							<a href="#2" class="text-base font-medium text-white hover:text-gray-300"
+								>Производство</a
+							>
 
-							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a>
+							<a href="#3" class="text-base font-medium text-white hover:text-gray-300"
+								>Информация</a
+							>
 
-							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Применение</a>
+							<a href="#4" class="text-base font-medium text-white hover:text-gray-300"
+								>Применение</a
+							>
 
 							<a href="#5" class="text-base font-medium text-white hover:text-gray-300">О нас</a>
-
 						</div>
 					</div>
-									<div class="hidden md:flex md:items-center md:space-x-6">
-										<div class="mr-2">
-											<div class=" flex items-center md:ml-2">
-												<div class="items-center">
-													<div class="flex items-center justify-between">
-														<div
-																class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased"
-														>
-															<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-															<svg
-																	xmlns="http://www.w3.org/2000/svg"
-																	class="h-6 w-6 text-cyan-400"
-																	fill="none"
-																	viewBox="0 0 24 24"
-																	stroke="currentColor"
-																	stroke-width="2"
-															>
-																<path
-																		stroke-linecap="round"
-																		stroke-linejoin="round"
-																		d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
-																/>
-															</svg>
-															<a href="tel:+74950808101" class="text-gray-50 text-xs sm:text-lg font-bold "
-															>+7 (495) 080-81-01</a
-															>
-														</div>
-														<div
-																class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased"
-														>
-															<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-															<svg
-																	xmlns="http://www.w3.org/2000/svg"
-																	class="h-6 w-6 text-cyan-400"
-																	fill="none"
-																	viewBox="0 0 24 24"
-																	stroke="currentColor"
-																	stroke-width="2"
-															>
-																<path
-																		stroke-linecap="round"
-																		stroke-linejoin="round"
-																		d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
-																/>
-															</svg>
-															<p class="text-gray-50 text-xs sm:text-xl font-bold">biohim.org@yandex.ru</p>
-														</div>
-													</div>
-												</div>
-
-<!--												                        <button type="button" class="bg-gray-800 p-1 rounded-full text-cyan-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white animate-pulse">-->
-<!--												                            <span class="sr-only">View notifications</span>-->
-<!--												                            &lt;!&ndash; Heroicon name: outline/bell &ndash;&gt;-->
-<!--												                            <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
-<!--												                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />-->
-<!--												                            </svg>-->
-<!--												                        </button>-->
-											</div>
+					<div class="hidden md:flex md:items-center md:space-x-6">
+						<div class="mr-2">
+							<div class=" flex items-center md:ml-2">
+								<div class="items-center">
+									<div class="flex items-center justify-between">
+										<div class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased">
+											<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												class="h-6 w-6 text-cyan-400"
+												fill="none"
+												viewBox="0 0 24 24"
+												stroke="currentColor"
+												stroke-width="2"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
+												/>
+											</svg>
+											<a href="tel:+74950808101" class="text-gray-50 text-xs sm:text-lg font-bold "
+												>+7 (495) 080-81-01</a
+											>
+										</div>
+										<div class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased">
+											<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+											<svg
+												xmlns="http://www.w3.org/2000/svg"
+												class="h-6 w-6 text-cyan-400"
+												fill="none"
+												viewBox="0 0 24 24"
+												stroke="currentColor"
+												stroke-width="2"
+											>
+												<path
+													stroke-linecap="round"
+													stroke-linejoin="round"
+													d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
+												/>
+											</svg>
+											<p class="text-gray-50 text-xs sm:text-xl font-bold">biohim.org@yandex.ru</p>
 										</div>
 									</div>
+								</div>
+
+								<!--												                        <button type="button" class="bg-gray-800 p-1 rounded-full text-cyan-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white animate-pulse">-->
+								<!--												                            <span class="sr-only">View notifications</span>-->
+								<!--												                            &lt;!&ndash; Heroicon name: outline/bell &ndash;&gt;-->
+								<!--												                            <svg class="h-6 w-6 " xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">-->
+								<!--												                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />-->
+								<!--												                            </svg>-->
+								<!--												                        </button>-->
+							</div>
+						</div>
+					</div>
 				</nav>
 			</div>
 			<div class="bg-main py-6">
@@ -160,7 +177,8 @@
 			<!--            </div>-->
 		</header>
 		<main>
-			<div id="1"
+			<div
+				id="1"
 				class="bg-[url('https://storage.yandexcloud.net/brand-logo/biohim/foto/bg.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:overflow-hidden "
 			>
 				<div class="mx-auto max-w-7xl lg:px-8">
@@ -199,8 +217,9 @@
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-									Техническая и медицинская перекись водорода в IBC-контейнерах по
-									оптовым ценам от заводов производителей с доставкой или самовывозом. Вся продукция сопровождается сертификатами качества.
+									Техническая и медицинская перекись водорода в IBC-контейнерах по оптовым ценам от
+									заводов производителей с доставкой или самовывозом. Вся продукция сопровождается
+									сертификатами качества.
 								</p>
 
 								<div class="mt-10 sm:mt-12 py-12">
@@ -275,13 +294,18 @@
 					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
 						Общая информация о продукции
 					</p>
-					<svg class="text-red-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM208 416c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zm272 48c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"/></svg>
+					<svg class="text-red-800 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+						><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+						<path
+							d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM208 416c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zm272 48c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"
+						/>
+					</svg>
 
 					<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700 text-center">
-						Перекись водорода или пероксид водорода (Н-О-О-Н) - прозрачная, бесцветная жидкость. Используется только в водных растворах, и смешивающаяся с водой в любых соотношениях. Молекулярный вес перекиси водорода 34,02.
+						Перекись водорода или пероксид водорода (Н-О-О-Н) - прозрачная, бесцветная жидкость.
+						Используется только в водных растворах, и смешивающаяся с водой в любых соотношениях.
+						Молекулярный вес перекиси водорода 34,02.
 					</p>
-
-
 
 					<div class="mt-12">
 						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -310,11 +334,10 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
-											Продукция
-										</h3>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Продукция</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Медицинская перекись водорода (35-40%) и техническая перекись водорода марки А(35-40%) и Б(30-40%)
+											Медицинская перекись водорода (35-40%) и техническая перекись водорода марки
+											А(35-40%) и Б(30-40%)
 										</p>
 									</div>
 								</div>
@@ -328,17 +351,26 @@
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
 												<!-- Heroicon name: outline/lock-closed -->
-												<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
-</svg>
-
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													class="w-6 h-6 text-white"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z"
+													/>
+												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
-											Стоимость
-										</h3>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Стоимость</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Актуальная цена предоставляется только по запросу клиента через форму обратной связи на сайте
+											Актуальная цена предоставляется только по запросу клиента через форму обратной
+											связи на сайте
 										</p>
 									</div>
 								</div>
@@ -349,36 +381,28 @@
 									<div class="-mt-6">
 										<div>
 											<span
-													class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
+												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
 												<!-- Heroicon name: outline/server -->
 												<svg
-														class="h-6 w-6 text-white"
-														xmlns="http://www.w3.org/2000/svg"
-														fill="none"
-														viewBox="0 0 24 24"
-														stroke-width="1.5"
-														stroke="currentColor"
-														aria-hidden="true"
-												>
+													class="text-red-800 h-6 w-6"
+													xmlns="http://www.w3.org/2000/svg"
+													viewBox="0 0 640 512"
+													><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
 													<path
-															stroke-linecap="round"
-															stroke-linejoin="round"
-															d="M21.75 17.25v-.228a4.5 4.5 0 00-.12-1.03l-2.268-9.64a3.375 3.375 0 00-3.285-2.602H7.923a3.375 3.375 0 00-3.285 2.602l-2.268 9.64a4.5 4.5 0 00-.12 1.03v.228m19.5 0a3 3 0 01-3 3H5.25a3 3 0 01-3-3m19.5 0a3 3 0 00-3-3H5.25a3 3 0 00-3 3m16.5 0h.008v.008h-.008v-.008zm-3 0h.008v.008h-.008v-.008z"
+														d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM208 416c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zm272 48c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"
 													/>
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
-											Доставка
-										</h3>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Доставка</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Отгрузка заказчику осуществляется со складов Москвы и Дзержинска спецтрансортом или самовывозом
+											Отгрузка заказчику осуществляется со складов Москвы и Дзержинска
+											спецтрансортом или самовывозом
 										</p>
 									</div>
 								</div>
 							</div>
-
 
 							<div class="pt-8 shadow-xl shadow-gray-900">
 								<div class="flow-root  bg-main px-6 pb-8">
@@ -405,11 +429,10 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
-											Фасовка
-										</h3>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Фасовка</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Продукция фасуется в IBC-контейнеры по 1000 литров (1070 кг) или наливом в свою тару клиента
+											Продукция фасуется в IBC-контейнеры по 1000 литров (1070 кг) или наливом в
+											свою тару клиента
 										</p>
 									</div>
 								</div>
@@ -440,11 +463,10 @@
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
-											Хранение
-										</h3>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Хранение</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Перекись хранится в помещениях складского назначения при температуре не выше 25-30 ºС
+											Перекись хранится в помещениях складского назначения при температуре не выше
+											25-30 ºС
 										</p>
 									</div>
 								</div>
@@ -455,44 +477,43 @@
 									<div class="-mt-6">
 										<div>
 											<span
-													class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
+												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
 												<!-- Heroicon name: outline/shield-check -->
 												<svg
-														class="h-6 w-6 text-white"
-														xmlns="http://www.w3.org/2000/svg"
-														fill="none"
-														viewBox="0 0 24 24"
-														stroke-width="1.5"
-														stroke="currentColor"
-														aria-hidden="true"
+													class="h-6 w-6 text-white"
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													aria-hidden="true"
 												>
 													<path
-															stroke-linecap="round"
-															stroke-linejoin="round"
-															d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
 													/>
 												</svg>
 											</span>
 										</div>
-										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
-											Гарантии
-										</h3>
+										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Гарантии</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Каждая партия отпускаемой продукции отгружается только после лабораторной проверки качества
+											Каждая партия отпускаемой продукции отгружается только после лабораторной
+											проверки качества
 										</p>
 									</div>
 								</div>
 							</div>
-
-
 						</div>
 					</div>
 				</div>
 			</div>
 
 			<div class="bg-gradient-to-b from-white to-gray-50" id="4">
-				<div class="max-w-2xl mx-auto px-4 pt-6 pb-24 sm:px-6 sm:pt-12 sm:pb-36 lg:max-w-7xl lg:px-8">
+				<div
+					class="max-w-2xl mx-auto px-4 pt-6 pb-24 sm:px-6 sm:pt-12 sm:pb-36 lg:max-w-7xl lg:px-8"
+				>
 					<!-- Details section -->
 					<section aria-labelledby="details-heading">
 						<div class="text-center">
@@ -501,63 +522,127 @@
 								Применение перекиси водорода
 							</p>
 							<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700">
-								Медицинская и техническая перекись водорода применяются в разных отраслях промышленности и в быту
+								Медицинская и техническая перекись водорода применяются в разных отраслях
+								промышленности и в быту
 							</p>
 						</div>
 
 						<div class="mt-16 grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:gap-x-8">
 							<div>
 								<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bussein.jpg" alt="" class="w-full h-96 object-center object-cover" />
+									<img
+										src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bussein.jpg"
+										alt=""
+										class="w-full h-96 object-center object-cover"
+									/>
 								</div>
-									<p class="mt-8 text-base text-gray-700"><strong>Техническая перекись водорода</strong> активно применяется как в профессиональных сферах человеческой деятельности (промышленность, медицина, транспорт) так и в быту. Как правило, вещество используется для отбеливания, дезинфекции и обеззараживания различных поверхностей – мебели, оборудования, тканей, инструментов и прочих немедецинских материалов.</p>
-									<p class="mt-8 text-base text-gray-700">Применять техническую перекись разрешается только в хорошо вентилируемых помещениях и на открытых площадках. Средство быстро растворяется в обычной воде, не имеет запаха и цвета. Широко используется для очистки воды в бассейнах и искусственных прудах.</p>
+								<p class="mt-8 text-base text-gray-700">
+									<strong>Техническая перекись водорода</strong> активно применяется как в профессиональных
+									сферах человеческой деятельности (промышленность, медицина, транспорт) так и в быту.
+									Как правило, вещество используется для отбеливания, дезинфекции и обеззараживания различных
+									поверхностей – мебели, оборудования, тканей, инструментов и прочих немедецинских материалов.
+								</p>
+								<p class="mt-8 text-base text-gray-700">
+									Применять техническую перекись разрешается только в хорошо вентилируемых
+									помещениях и на открытых площадках. Средство быстро растворяется в обычной воде,
+									не имеет запаха и цвета. Широко используется для очистки воды в бассейнах и
+									искусственных прудах.
+								</p>
 							</div>
 							<div>
 								<div class="w-full aspect-w-3 aspect-h-2 rounded-lg overflow-hidden">
-									<img src="https://storage.yandexcloud.net/brand-logo/biohim/foto/fotohim2.jpg" alt="" class="w-full h-96 object-center object-cover" />
+									<img
+										src="https://storage.yandexcloud.net/brand-logo/biohim/foto/fotohim2.jpg"
+										alt=""
+										class="w-full h-96 object-center object-cover"
+									/>
 								</div>
-									<p class="mt-8 text-base text-gray-700"><strong>Перекись водорода медицинская</strong> применяется в медучреждениях и лабораториях для дезинфекции поверхностей в помещениях, жёсткой мебели, поверхностей аппаратов и приборов, санитарно-технического оборудования, белья, посуды , игрушек, предметов ухода за больными. А также для дезинфекции транспорта и предстерилизационной очистки медицинских изделий.</p>
-									<p class="mt-8 text-base text-gray-700">Перекись водорода медицинская обладает высокой антимикробной активностью в отношении бактерий, в том числе спорообразующих вирусов и грибов (возбудителей дерматофитий). Также эффективна в борьбе с коронавиросом, для оббезараживания воды и для очитки бассейнов.</p>
+								<p class="mt-8 text-base text-gray-700">
+									<strong>Перекись водорода медицинская</strong> применяется в медучреждениях и лабораториях
+									для дезинфекции поверхностей в помещениях, жёсткой мебели, поверхностей аппаратов и
+									приборов, санитарно-технического оборудования, белья, посуды , игрушек, предметов ухода
+									за больными. А также для дезинфекции транспорта и предстерилизационной очистки медицинских
+									изделий.
+								</p>
+								<p class="mt-8 text-base text-gray-700">
+									Перекись водорода медицинская обладает высокой антимикробной активностью в
+									отношении бактерий, в том числе спорообразующих вирусов и грибов (возбудителей
+									дерматофитий). Также эффективна в борьбе с коронавиросом, для оббезараживания воды
+									и для очитки бассейнов.
+								</p>
 							</div>
 						</div>
 					</section>
 				</div>
 			</div>
 
-
-
 			<div class="bg-gray-100" id="5">
 				<div class="pt-16 sm:pt-16 lg:pt-20">
 					<div class="text-lg max-w-prose mx-auto">
 						<h1>
-							<span class="block text-base text-center text-cyan-600 font-semibold tracking-wide uppercase">О нас</span>
-							<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Информация о компании</span>
+							<span
+								class="block text-base text-center text-cyan-600 font-semibold tracking-wide uppercase"
+								>О нас</span
+							>
+							<span
+								class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl"
+								>Информация о компании</span
+							>
 						</h1>
 					</div>
 				</div>
 				<div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
 					<div class="relative">
-						<div class="absolute inset-0 h-1/2 bg-gray-100"></div>
+						<div class="absolute inset-0 h-1/2 bg-gray-100" />
 						<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-							<div class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
+							<div
+								class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex"
+							>
 								<div class="flex-1 bg-white px-6 py-8 lg:p-12">
-									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">ООО ТК "ФОРВАРД ЛАЙН"</h3>
-									<p class="mt-6 text-base text-gray-700">Более 8 лет мы занимаемся оптовой торговлей химической продукцией и, в частности, медицинской и технической перекисью водорода. За это время зарекомендовали себя как надёжного и лояльного контрагента, с которым можно иметь длительные деловые отношения. Приглашаем вас к взаимовыгодному сотрудничеству на постоянной основе.</p>
-									<p class="mt-6 text-base text-gray-700">Юридический адрес: Нижегородская область, г. Дзержинск, б-р Мира д. 27а, офис 302</p>
+									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
+										ООО ТК "ФОРВАРД ЛАЙН"
+									</h3>
+									<p class="mt-6 text-base text-gray-700">
+										Более 8 лет мы занимаемся оптовой торговлей химической продукцией и, в
+										частности, медицинской и технической перекисью водорода. За это время
+										зарекомендовали себя как надёжного и лояльного контрагента, с которым можно
+										иметь длительные деловые отношения. Приглашаем вас к взаимовыгодному
+										сотрудничеству на постоянной основе.
+									</p>
+									<p class="mt-6 text-base text-gray-700">
+										Юридический адрес: Нижегородская область, г. Дзержинск, б-р Мира д. 27а, офис
+										302
+									</p>
 									<p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p>
-									<p class="mt-6 text-base text-gray-700">Ведущий специалист: Иванов Иван Иванович</p>
+									<p class="mt-6 text-base text-gray-700">
+										Ведущий специалист: Иванов Иван Иванович
+									</p>
 									<div class="mt-8">
 										<div class="flex items-center">
-											<h4 class="flex-shrink-0 pr-4 bg-white text-base font-semibold text-cyan-600">Реквизиты</h4>
-											<div class="flex-1 border-t-2 border-gray-200"></div>
+											<h4 class="flex-shrink-0 pr-4 bg-white text-base font-semibold text-cyan-600">
+												Реквизиты
+											</h4>
+											<div class="flex-1 border-t-2 border-gray-200" />
 										</div>
-										<ul role="list" class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
+										<ul
+											role="list"
+											class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
+										>
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
 													<!-- Heroicon name: solid/check-circle -->
-													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													<svg
+														class="h-5 w-5 text-cyan-600"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 20 20"
+														fill="currentColor"
+														aria-hidden="true"
+													>
+														<path
+															fill-rule="evenodd"
+															d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+															clip-rule="evenodd"
+														/>
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">ИНН 5249133142</p>
@@ -566,8 +651,18 @@
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
 													<!-- Heroicon name: solid/check-circle -->
-													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													<svg
+														class="h-5 w-5 text-cyan-600"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 20 20"
+														fill="currentColor"
+														aria-hidden="true"
+													>
+														<path
+															fill-rule="evenodd"
+															d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+															clip-rule="evenodd"
+														/>
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">КПП 524901001</p>
@@ -576,8 +671,18 @@
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
 													<!-- Heroicon name: solid/check-circle -->
-													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													<svg
+														class="h-5 w-5 text-cyan-600"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 20 20"
+														fill="currentColor"
+														aria-hidden="true"
+													>
+														<path
+															fill-rule="evenodd"
+															d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+															clip-rule="evenodd"
+														/>
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">ОГРН 1145249001853</p>
@@ -586,8 +691,18 @@
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
 													<!-- Heroicon name: solid/check-circle -->
-													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													<svg
+														class="h-5 w-5 text-cyan-600"
+														xmlns="http://www.w3.org/2000/svg"
+														viewBox="0 0 20 20"
+														fill="currentColor"
+														aria-hidden="true"
+													>
+														<path
+															fill-rule="evenodd"
+															d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+															clip-rule="evenodd"
+														/>
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">Регистрация 10.04.2014</p>
@@ -595,33 +710,32 @@
 										</ul>
 									</div>
 								</div>
-<!--								<div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">-->
-<!--									<p class="text-lg leading-6 font-medium text-gray-900"></p>-->
-<!--									<div class="mt-4 flex items-center justify-center text-5xl tracking-tight font-bold text-gray-900">-->
-<!--										&lt;!&ndash;                            <span> ₽ 0</span>&ndash;&gt;-->
-<!--										&lt;!&ndash;                            <span class="ml-3 text-xl font-medium text-gray-700 tracking-normal"> RUB </span>&ndash;&gt;-->
-<!--									</div>-->
-<!--									&lt;!&ndash;                        <p class="mt-4 text-sm">&ndash;&gt;-->
-<!--									&lt;!&ndash;                            <a href="#" class="font-medium text-gray-700 underline"> Learn about our membership policy </a>&ndash;&gt;-->
-<!--									&lt;!&ndash;                        </p>&ndash;&gt;-->
-<!--									<div class="mt-6">-->
-<!--										<div class="rounded-md shadow">-->
-<!--											<a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"> Отправить запрос</a>-->
-<!--										</div>-->
-<!--									</div>-->
-<!--									<div class="mt-4 text-sm">-->
-<!--										<a href="#" class="font-medium text-gray-900">-->
-<!--											Ответим на вашу почту в ближайшее время-->
-<!--											<span class="font-normal text-gray-700"> </span>-->
-<!--										</a>-->
-<!--									</div>-->
-<!--								</div>-->
+								<!--								<div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">-->
+								<!--									<p class="text-lg leading-6 font-medium text-gray-900"></p>-->
+								<!--									<div class="mt-4 flex items-center justify-center text-5xl tracking-tight font-bold text-gray-900">-->
+								<!--										&lt;!&ndash;                            <span> ₽ 0</span>&ndash;&gt;-->
+								<!--										&lt;!&ndash;                            <span class="ml-3 text-xl font-medium text-gray-700 tracking-normal"> RUB </span>&ndash;&gt;-->
+								<!--									</div>-->
+								<!--									&lt;!&ndash;                        <p class="mt-4 text-sm">&ndash;&gt;-->
+								<!--									&lt;!&ndash;                            <a href="#" class="font-medium text-gray-700 underline"> Learn about our membership policy </a>&ndash;&gt;-->
+								<!--									&lt;!&ndash;                        </p>&ndash;&gt;-->
+								<!--									<div class="mt-6">-->
+								<!--										<div class="rounded-md shadow">-->
+								<!--											<a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"> Отправить запрос</a>-->
+								<!--										</div>-->
+								<!--									</div>-->
+								<!--									<div class="mt-4 text-sm">-->
+								<!--										<a href="#" class="font-medium text-gray-900">-->
+								<!--											Ответим на вашу почту в ближайшее время-->
+								<!--											<span class="font-normal text-gray-700"> </span>-->
+								<!--										</a>-->
+								<!--									</div>-->
+								<!--								</div>-->
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
 
 			<!-- CTA Section -->
 			<div class="relative bg-main">
@@ -633,7 +747,8 @@
 					/>
 					<div
 						aria-hidden="true"
-						class="absolute inset-0 bg-gradient-to-br from-blue-500 to-green-600 mix-blend-multiply"></div>
+						class="absolute inset-0 bg-gradient-to-br from-blue-500 to-green-600 mix-blend-multiply"
+					/>
 				</div>
 				<div
 					class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32"
@@ -644,7 +759,8 @@
 							Сопровождение сделки
 						</p>
 						<p class="mt-3 text-lg text-gray-300">
-							Наши специалисты учавствует в процессе сделки от начала первой консультации до факта фактической отгрузки перекиси водорода клиенту.
+							Наши специалисты учавствует в процессе сделки от начала первой консультации до факта
+							фактической отгрузки перекиси водорода клиенту.
 						</p>
 						<div class="mt-8">
 							<div class="inline-flex rounded-md shadow">
@@ -680,27 +796,24 @@
 			</div>
 		</main>
 
-
-
-
 		<footer class="bg-gray-50">
 			<div class="max-w-7xl mx-auto py-12 px-4 overflow-hidden sm:px-6 lg:px-8">
 				<nav class="-mx-5 -my-2 flex flex-wrap justify-center" aria-label="Footer">
-						<div class="px-5 py-2">
-							<a href="#1" class="text-base text-gray-700"> Главная </a>
-						</div>
-						<div class="px-5 py-2">
-							<a href="#2" class="text-base text-gray-700"> Производство </a>
-						</div>
-						<div class="px-5 py-2">
-							<a href="#3" class="text-base text-gray-700"> Информация </a>
-						</div>
-						<div class="px-5 py-2">
-							<a href="#4" class="text-base text-gray-700"> Применение </a>
-						</div>
-						<div class="px-5 py-2">
-							<a href="#5" class="text-base text-gray-700"> О нас </a>
-						</div>
+					<div class="px-5 py-2">
+						<a href="#1" class="text-base text-gray-700"> Главная </a>
+					</div>
+					<div class="px-5 py-2">
+						<a href="#2" class="text-base text-gray-700"> Производство </a>
+					</div>
+					<div class="px-5 py-2">
+						<a href="#3" class="text-base text-gray-700"> Информация </a>
+					</div>
+					<div class="px-5 py-2">
+						<a href="#4" class="text-base text-gray-700"> Применение </a>
+					</div>
+					<div class="px-5 py-2">
+						<a href="#5" class="text-base text-gray-700"> О нас </a>
+					</div>
 				</nav>
 				<p class="mt-8 text-center text-base text-gray-400">
 					&copy; 2015-2022. Компания "БиоХим"
@@ -708,14 +821,5 @@
 				</p>
 			</div>
 		</footer>
-
-
-
-
-
-
-
-
-
 	</div>
 </div>
