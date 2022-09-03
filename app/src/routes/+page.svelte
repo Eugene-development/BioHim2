@@ -175,7 +175,7 @@
 						<div
 							class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
-							<div class="mt-16 lg:py-24 bg-main bg-opacity-60 px-4">
+							<div class=" lg:py-48 py-12 bg-main bg-opacity-60 px-4">
 								<span
 									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
