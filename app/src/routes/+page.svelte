@@ -118,17 +118,6 @@
 					</div>
 				</nav>
 			</div>
-			<div class="bg-main py-6">
-				<nav
-					class="relative mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6"
-					aria-label="Global"
-				>
-					<!--                    <div class="hidden md:flex md:items-center md:space-x-6">-->
-					<!--                        <a href="#" class="text-base font-medium text-white hover:text-gray-300">Log in</a>-->
-					<!--                        <a href="#" class="inline-flex items-center rounded-md border border-transparent bg-gray-600 px-4 py-2 text-base font-medium text-white hover:bg-gray-700">Start free trial</a>-->
-					<!--                    </div>-->
-				</nav>
-			</div>
 
 			<!--
               Mobile menu, show/hide based on menu open state.
@@ -186,7 +175,7 @@
 						<div
 							class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
-							<div class="lg:py-24 bg-main bg-opacity-60 px-4">
+							<div class="mt-16 lg:py-24 bg-main bg-opacity-60 px-4">
 								<span
 									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
@@ -294,13 +283,6 @@
 					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
 						Общая информация о продукции
 					</p>
-					<svg class="text-red-800 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
-						><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-						<path
-							d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM208 416c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zm272 48c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"
-						/>
-					</svg>
-
 					<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700 text-center">
 						Перекись водорода или пероксид водорода (Н-О-О-Н) - прозрачная, бесцветная жидкость.
 						Используется только в водных растворах, и смешивающаяся с водой в любых соотношениях.
@@ -316,22 +298,9 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-												<!-- Heroicon name: outline/cloud-arrow-up -->
-												<svg
-													aria-hidden="true"
-													class="h-6 w-6 text-white"
-													fill="none"
-													stroke="currentColor"
-													stroke-width="1.5"
-													viewBox="0 0 24 24"
-													xmlns="http://www.w3.org/2000/svg"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z"
-													/>
-												</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Продукция</h3>
@@ -383,16 +352,10 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-												<!-- Heroicon name: outline/server -->
-												<svg
-													class="text-red-800 h-6 w-6"
-													xmlns="http://www.w3.org/2000/svg"
-													viewBox="0 0 640 512"
-													><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-													<path
-														d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM208 416c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zm272 48c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"
-													/>
-												</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Доставка</h3>
@@ -411,22 +374,9 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-												<!-- Heroicon name: outline/arrow-path -->
-												<svg
-													class="h-6 w-6 text-white"
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													stroke-width="1.5"
-													stroke="currentColor"
-													aria-hidden="true"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														d="M4.5 12c0-1.232.046-2.453.138-3.662a4.006 4.006 0 013.7-3.7 48.678 48.678 0 017.324 0 4.006 4.006 0 013.7 3.7c.017.22.032.441.046.662M4.5 12l-3-3m3 3l3-3m12 3c0 1.232-.046 2.453-.138 3.662a4.006 4.006 0 01-3.7 3.7 48.657 48.657 0 01-7.324 0 4.006 4.006 0 01-3.7-3.7c-.017-.22-.032-.441-.046-.662M19.5 12l-3 3m3-3l3 3"
-													/>
-												</svg>
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Фасовка</h3>
@@ -445,22 +395,11 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-												<!-- Heroicon name: outline/cog -->
-												<svg
-													class="h-6 w-6 text-white"
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													stroke-width="1.5"
-													stroke="currentColor"
-													aria-hidden="true"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.795l.75-1.3m7.5-12.99l.75-1.3m-6.063 16.658l.26-1.477m2.605-14.772l.26-1.477m0 17.726l-.26-1.477M10.698 4.614l-.26-1.477M16.5 19.794l-.75-1.299M7.5 4.205L12 12m6.894 5.785l-1.149-.964M6.256 7.178l-1.15-.964m15.352 8.864l-1.41-.513M4.954 9.435l-1.41-.514M12.002 12l-3.75 6.495"
-													/>
-												</svg>
+
+												<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
+</svg>
+
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Хранение</h3>
