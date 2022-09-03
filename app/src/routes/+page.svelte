@@ -537,10 +537,10 @@
 				</div>
 				<div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
 					<div class="relative">
-						<div class="absolute inset-0 h-1/2 bg-gray-100" />
+						<div class="absolute inset-0 h-1/2 bg-gray-100"></div>
 						<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 							<div
-								class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex"
+								class="max-w-lg mx-auto rounded-lg shadow-lg shadow-gray-400 overflow-hidden lg:max-w-none lg:flex"
 							>
 								<div class="flex-1 bg-white px-6 py-8 lg:p-12">
 									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
@@ -563,10 +563,10 @@
 									</p>
 									<div class="mt-8">
 										<div class="flex items-center">
-											<h4 class="flex-shrink-0 pr-4 bg-white text-base font-semibold text-cyan-600">
+											<h3 class="flex-shrink-0 pr-4 bg-white text-2xl font-semibold text-cyan-600">
 												Реквизиты
-											</h4>
-											<div class="flex-1 border-t-2 border-gray-200" />
+											</h3>
+											<div class="flex-1 border-t-2 border-gray-200"></div>
 										</div>
 										<ul
 											role="list"
@@ -686,13 +686,12 @@
 				<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 					<img
 						class="h-full w-full object-cover"
-						src="https://images.unsplash.com/photo-1525130413817-d45c1d127c42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=60&sat=-100"
-						alt=""
+						src="https://storage.yandexcloud.net/brand-logo/biohim/foto/team.avif"
+						alt="команда"
 					/>
 					<div
 						aria-hidden="true"
-						class="absolute inset-0 bg-gradient-to-br from-blue-500 to-green-600 mix-blend-multiply"
-					/>
+						class="absolute inset-0 bg-gradient-to-br from-blue-500 to-green-600 mix-blend-multiply"></div>
 				</div>
 				<div
 					class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32"
