@@ -158,7 +158,7 @@
 		</header>
 		<main>
 			<div id="1"
-				class="bg-[url('https://egevpare.ru/wp-content/uploads/2022/04/1625178061_49-kartinkin-com-p-khimiya-fon-krasivie-foni-52.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:overflow-hidden "
+				class="bg-[url('https://storage.yandexcloud.net/brand-logo/biohim/foto/bg.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:overflow-hidden "
 			>
 				<div class="mx-auto max-w-7xl lg:px-8">
 					<div class="lg:grid lg:grid-cols-2 lg:gap-4">
@@ -190,9 +190,9 @@
 									</svg>
 								</span>
 								<h1
-									class="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-7xl lg:mt-6 xl:text-7xl"
+									class="mt-4 text-2xl font-bold tracking-tight text-white sm:mt-5 sm:text-4xl lg:mt-6"
 								>
-									<span class="block text-cyan-200">"БиоХим"</span>
+									<span class="block text-cyan-200">ООО ТК "ФОРВАРД ЛАЙН"</span>
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
@@ -272,9 +272,14 @@
 					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
 						Общая информация о продукции
 					</p>
+					<svg class="text-red-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M48 0C21.5 0 0 21.5 0 48V368c0 26.5 21.5 48 48 48H64c0 53 43 96 96 96s96-43 96-96H384c0 53 43 96 96 96s96-43 96-96h32c17.7 0 32-14.3 32-32s-14.3-32-32-32V288 256 237.3c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7H416V48c0-26.5-21.5-48-48-48H48zM416 160h50.7L544 237.3V256H416V160zM208 416c0 26.5-21.5 48-48 48s-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48zm272 48c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z"/></svg>
+
 					<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700 text-center">
 						Перекись водорода или пероксид водорода (Н-О-О-Н) - прозрачная, бесцветная жидкость. Используется только в водных растворах, и смешивающаяся с водой в любых соотношениях. Молекулярный вес перекиси водорода 34,02.
 					</p>
+
+
+
 					<div class="mt-12">
 						<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
 							<div class="pt-8 shadow-xl shadow-gray-900">
@@ -320,21 +325,10 @@
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
 												<!-- Heroicon name: outline/lock-closed -->
-												<svg
-													class="h-6 w-6 text-white"
-													xmlns="http://www.w3.org/2000/svg"
-													fill="none"
-													viewBox="0 0 24 24"
-													stroke-width="1.5"
-													stroke="currentColor"
-													aria-hidden="true"
-												>
-													<path
-														stroke-linecap="round"
-														stroke-linejoin="round"
-														d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"
-													/>
-												</svg>
+												<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414.336.75.75.75h.75m-1.5-1.5h.375c.621 0 1.125.504 1.125 1.125v9.75c0 .621-.504 1.125-1.125 1.125h-.375m1.5-1.5H21a.75.75 0 00-.75.75v.75m0 0H3.75m0 0h-.375a1.125 1.125 0 01-1.125-1.125V15m1.5 1.5v-.75A.75.75 0 003 15h-.75M15 10.5a3 3 0 11-6 0 3 3 0 016 0zm3 0h.008v.008H18V10.5zm-12 0h.008v.008H6V10.5z" />
+</svg>
+
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">
@@ -525,6 +519,100 @@
 							</div>
 						</div>
 					</section>
+				</div>
+			</div>
+
+
+
+			<div class="bg-gray-100">
+				<div class="pt-16 sm:pt-16 lg:pt-20">
+					<div class="text-lg max-w-prose mx-auto">
+						<h1>
+							<span class="block text-base text-center text-cyan-600 font-semibold tracking-wide uppercase">О нас</span>
+							<span class="mt-2 block text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">Информация о компании</span>
+						</h1>
+					</div>
+				</div>
+				<div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
+					<div class="relative">
+						<div class="absolute inset-0 h-1/2 bg-gray-100"></div>
+						<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+							<div class="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
+								<div class="flex-1 bg-white px-6 py-8 lg:p-12">
+									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">ООО ТК "ФОРВАРД ЛАЙН"</h3>
+									<p class="mt-6 text-base text-gray-500">Более 8 лет мы занимаемся оптовой торговлей химической продукцией</p>
+									<div class="mt-8">
+										<div class="flex items-center">
+											<h4 class="flex-shrink-0 pr-4 bg-white text-base font-semibold text-cyan-600">Реквизиты</h4>
+											<div class="flex-1 border-t-2 border-gray-200"></div>
+										</div>
+										<ul role="list" class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5">
+											<li class="flex items-start lg:col-span-1">
+												<div class="flex-shrink-0">
+													<!-- Heroicon name: solid/check-circle -->
+													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													</svg>
+												</div>
+												<p class="ml-3 text-sm text-gray-700">ИНН 5249133142</p>
+											</li>
+
+											<li class="flex items-start lg:col-span-1">
+												<div class="flex-shrink-0">
+													<!-- Heroicon name: solid/check-circle -->
+													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													</svg>
+												</div>
+												<p class="ml-3 text-sm text-gray-700">Необходимый объём закупки</p>
+											</li>
+
+											<li class="flex items-start lg:col-span-1">
+												<div class="flex-shrink-0">
+													<!-- Heroicon name: solid/check-circle -->
+													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													</svg>
+												</div>
+												<p class="ml-3 text-sm text-gray-700">Контактное лицо</p>
+											</li>
+
+											<li class="flex items-start lg:col-span-1">
+												<div class="flex-shrink-0">
+													<!-- Heroicon name: solid/check-circle -->
+													<svg class="h-5 w-5 text-cyan-600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+														<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+													</svg>
+												</div>
+												<p class="ml-3 text-sm text-gray-700">Вид перекиси</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+									<p class="text-lg leading-6 font-medium text-gray-900">Компания "БиоХим"</p>
+									<div class="mt-4 flex items-center justify-center text-5xl tracking-tight font-bold text-gray-900">
+										<!--                            <span> ₽ 0</span>-->
+										<!--                            <span class="ml-3 text-xl font-medium text-gray-500 tracking-normal"> RUB </span>-->
+									</div>
+									<!--                        <p class="mt-4 text-sm">-->
+									<!--                            <a href="#" class="font-medium text-gray-500 underline"> Learn about our membership policy </a>-->
+									<!--                        </p>-->
+									<div class="mt-6">
+										<div class="rounded-md shadow">
+											<a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"> Отправить запрос</a>
+										</div>
+									</div>
+									<div class="mt-4 text-sm">
+										<a href="#" class="font-medium text-gray-900">
+											Ответим на вашу почту в ближайшее время
+											<span class="font-normal text-gray-500"> </span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 
