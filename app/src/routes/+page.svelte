@@ -10,9 +10,6 @@
 
 
 
-
-
-
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
