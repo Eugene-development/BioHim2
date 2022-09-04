@@ -1,7 +1,8 @@
 <svelte:head>
-	<title>Медицинская и техническая перекись водорода оптом</title>
+	<title>Медицинская и техническая перекись водорода крупным и мелким оптом</title>
 	<meta name="description" content="Оптовая продажа медицинской и технической перекиси водорода от производителя" />
 </svelte:head>
+
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
