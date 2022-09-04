@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Медицинская и техническая перекись водорода оптом</title>
+	<meta name="description" content="Оптовая продажа медицинской и технической перекиси водорода от производителя" />
+</svelte:head>
+
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
@@ -147,14 +152,22 @@
 			                    </div>
 			                    <div class="pt-5 pb-6">
 			                        <div class="space-y-1 px-2">
-			                            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">Product</a>
+										<a href="#1" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">Главная</a>
 
-			                            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">Features</a>
+										<a href="#2" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+										>Производство</a
+										>
 
-			                            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">Marketplace</a>
+										<a href="#3" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+										>Информация</a
+										>
 
-			                            <a href="#" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">Company</a>
-			                        </div>
+										<a href="#4" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+										>Применение</a
+										>
+
+										<a href="#5" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">О нас</a>
+									</div>
 			                        <div class="mt-6 px-5">
 			                            <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
 			                        </div>
