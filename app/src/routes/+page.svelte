@@ -134,6 +134,7 @@
                 From: "opacity-100 scale-100"
                 To: "opacity-0 scale-95"
             -->
+			{#if false}
 			            <div class="absolute inset-x-0 top-0 origin-top transform p-2 transition md:hidden">
 			                <div class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
 			                    <div class="flex items-center justify-between px-5 pt-4">
@@ -177,6 +178,8 @@
 			                    </div>
 			                </div>
 			            </div>
+
+				{/if}
 		</header>
 		<main>
 			<div
@@ -188,15 +191,15 @@
 						<div
 							class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
-							<div class=" lg:py-48 py-12 bg-main bg-opacity-60 px-4">
+							<div class=" lg:py-48 py-12 bg-main bg-opacity-60 px-2">
 								<span
 									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
 									<span
-										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 py-1 text-sm font-semibold leading-5 text-white"
+										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 py-1 text-xs sm:text-sm font-semibold leading-5 text-white"
 										>Перекись водорода</span
 									>
-									<span class="ml-4 text-sm">по оптовым ценам</span>
+									<span class="ml-4 text-xs sm:text-sm">по оптовым ценам</span>
 									<!-- Heroicon name: mini/chevron-right -->
 									<svg
 										aria-hidden="true"
