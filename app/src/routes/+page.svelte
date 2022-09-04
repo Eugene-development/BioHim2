@@ -12,8 +12,8 @@
 					aria-label="Global"
 				>
 					<div class="flex flex-1 items-center">
-						<div class="flex w-full items-center justify-between md:w-auto">
-							<a href="#">
+						<div class="flex w-full items-center justify-between lg:w-auto">
+							<a href="#1">
 								<span class="sr-only">Workflow</span>
 								<img
 									class="h-8 w-auto sm:h-10"
@@ -21,7 +21,7 @@
 									alt=""
 								/>
 							</a>
-							<div class="-mr-2 flex items-center md:hidden">
+							<div class="-mr-2 flex items-center lg:hidden">
 								<button
 									type="button"
 									class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white"
@@ -47,25 +47,19 @@
 								</button>
 							</div>
 						</div>
-						<div class="hidden space-x-8 md:ml-10 md:flex">
+						<div class="hidden lg:flex space-x-8 md:ml-10 ">
 							<a href="#1" class="text-base font-medium text-white hover:text-gray-300">Главная</a>
 
-							<a href="#2" class="text-base font-medium text-white hover:text-gray-300"
-								>Производство</a
-							>
+							<a href="#2" class="text-base font-medium text-white hover:text-gray-300">Производство</a>
 
-							<a href="#3" class="text-base font-medium text-white hover:text-gray-300"
-								>Информация</a
-							>
+							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a>
 
-							<a href="#4" class="text-base font-medium text-white hover:text-gray-300"
-								>Применение</a
-							>
+							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Применение</a>
 
 							<a href="#5" class="text-base font-medium text-white hover:text-gray-300">О нас</a>
 						</div>
 					</div>
-					<div class="hidden md:flex md:items-center md:space-x-6">
+					<div class="hidden lg:flex md:items-center md:space-x-6">
 						<div class="mr-2">
 							<div class=" flex items-center md:ml-2">
 								<div class="items-center">
@@ -575,7 +569,7 @@
 									</p>
 									<p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p>
 									<p class="mt-6 text-base text-gray-700">
-										Ведущий специалист: Иванов Иван Иванович
+										Менеджер: Иванов Иван Иванович
 									</p>
 									<div class="mt-8">
 										<div class="flex items-center">
@@ -585,7 +579,6 @@
 											<div class="flex-1 border-t-2 border-gray-200"></div>
 										</div>
 										<ul
-											role="list"
 											class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
 										>
 											<li class="flex items-start lg:col-span-1">
@@ -724,7 +717,7 @@
 						<div class="mt-8">
 							<div class="inline-flex rounded-md shadow">
 								<a
-									href="#"
+									href="#1"
 									class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
 								>
 									Отправить запрос на цену
