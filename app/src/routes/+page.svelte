@@ -1,3 +1,5 @@
+
+
 <svelte:head>
 	<title>Медицинская и техническая перекись водорода крупным и мелким оптом в Московской области</title>
 	<meta name="description" content="Оптовая продажа медицинской и технической перекиси водорода от производителя" />
@@ -164,12 +166,12 @@
 
 										<a href="#5" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">О нас</a>
 									</div>
-			                        <div class="mt-6 px-5">
+			                        <!-- <div class="mt-6 px-5">
 			                            <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
 			                        </div>
 			                        <div class="mt-6 px-5">
 			                            <p class="text-center text-base font-medium text-gray-700">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
-			                        </div>
+			                        </div> -->
 			                    </div>
 			                </div>
 			            </div>
@@ -570,7 +572,7 @@
 									</p>
 									<p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p>
 									<p class="mt-6 text-base text-gray-700">
-										Менеджер: Иванов Иван Иванович
+										Менеджер: Александр
 									</p>
 									<div class="mt-8">
 										<div class="flex items-center">
