@@ -1,5 +1,3 @@
-
-
 <svelte:head>
 	<title>Медицинская и техническая перекись водорода крупным и мелким оптом в Московской области</title>
 	<meta name="description" content="Оптовая продажа медицинской и технической перекиси водорода от производителя" />
@@ -18,7 +16,7 @@
 					<div class="flex flex-1 items-center">
 						<div class="flex w-full items-center justify-between lg:w-auto">
 							<a href="#1">
-								
+
 								<span class="sr-only">Work</span>
 								<img
 									class="h-8 w-auto sm:h-10"
