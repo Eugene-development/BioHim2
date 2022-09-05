@@ -18,8 +18,8 @@
 								<span class="sr-only">Workflow</span>
 								<img
 									class="h-8 w-auto sm:h-10"
-									src="https://tailwindui.com/img/logos/workflow-mark.svg?from-color=teal&from-shade=200&to-color=cyan&to-shade=400&toShade=400"
-									alt=""
+									src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"
+									alt="logo"
 								/>
 							</a>
 							<div class="-mr-2 flex items-center lg:hidden">
