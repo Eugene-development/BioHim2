@@ -1,3 +1,40 @@
+<script>
+
+
+	import {formEmail, mobileMenu} from "../stores"
+	import {useInvert} from "../functions/invert"
+	const {invert} = useInvert
+
+	const changeVisibleFormEmail = () => formEmail.update(invert)
+	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
+
+
+
+
+
+
+
+
+	let phone = '';
+	const url = `/sendPhone`;
+	const apiCRUD =  {
+		baseURL: 'https://larux.ru:7721/',
+		headers: {
+			Authorization: `Bearer 3`
+		}
+	}
+	async function sendPhone(){
+		try {
+			const data = {phone: phone};
+			await axios.post(url, data, apiCRUD);
+			changeVisibleFormPhone();
+		} catch (error) {
+			console.error(error);
+		}
+	}
+
+</script>
+
 <svelte:head>
 	<title>Техническая и медицинская перекись водорода крупным и мелким оптом</title>
 	<meta
@@ -5,6 +42,9 @@
 		content="Оптовая продажа медицинской и технической перекиси водорода от производителя"
 	/>
 </svelte:head>
+{#if $formEmail}
+<p>{$formEmail}</p>
+{/if}
 
 <div class="bg-white">
 	<div class="relative overflow-hidden">
@@ -26,6 +66,7 @@
 							</a>
 							<div class="-mr-2 flex items-center lg:hidden">
 								<button
+									on:click={changeVisibleMobileMenu}
 									type="button"
 									class="focus-ring-inset inline-flex items-center justify-center rounded-md bg-gray-900 p-2 text-gray-400 hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-white"
 									aria-expanded="false"
@@ -137,7 +178,7 @@
                 From: "opacity-100 scale-100"
                 To: "opacity-0 scale-95"
             -->
-			{#if false}
+			{#if $mobileMenu}
 				<div class="absolute inset-x-0 top-0 origin-top transform p-2 transition md:hidden">
 					<div
 						class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5"
@@ -152,6 +193,7 @@
 							</div>
 							<div class="-mr-2">
 								<button
+									on:click={changeVisibleMobileMenu}
 									type="button"
 									class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600"
 								>
@@ -214,6 +256,7 @@
 				</div>
 			{/if}
 		</header>
+
 		<main>
 			<div
 				id="1"
