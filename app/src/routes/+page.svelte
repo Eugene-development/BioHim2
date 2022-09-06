@@ -1,9 +1,10 @@
 <svelte:head>
-	<title>Техническая и медицинская перекись водорода крупным и мелким оптом3</title>
-	<meta name="description" content="Оптовая продажа медицинской и технической перекиси водорода от производителя" />
+	<title>Техническая и медицинская перекись водорода крупным и мелким оптом</title>
+	<meta
+		name="description"
+		content="Оптовая продажа медицинской и технической перекиси водорода от производителя"
+	/>
 </svelte:head>
-
-
 
 <div class="bg-white">
 	<div class="relative overflow-hidden">
@@ -16,7 +17,6 @@
 					<div class="flex flex-1 items-center">
 						<div class="flex w-full items-center justify-between lg:w-auto">
 							<a href="#1">
-
 								<span class="sr-only">Work</span>
 								<img
 									class="h-8 w-auto sm:h-10"
@@ -53,11 +53,17 @@
 						<div class="hidden lg:flex space-x-8 md:ml-10 ">
 							<a href="#1" class="text-base font-medium text-white hover:text-gray-300">Главная</a>
 
-							<a href="#2" class="text-base font-medium text-white hover:text-gray-300">Производство</a>
+							<a href="#2" class="text-base font-medium text-white hover:text-gray-300"
+								>Производство</a
+							>
 
-							<a href="#3" class="text-base font-medium text-white hover:text-gray-300">Информация</a>
+							<a href="#3" class="text-base font-medium text-white hover:text-gray-300"
+								>Информация</a
+							>
 
-							<a href="#4" class="text-base font-medium text-white hover:text-gray-300">Применение</a>
+							<a href="#4" class="text-base font-medium text-white hover:text-gray-300"
+								>Применение</a
+							>
 
 							<a href="#5" class="text-base font-medium text-white hover:text-gray-300">О нас</a>
 						</div>
@@ -132,51 +138,81 @@
                 To: "opacity-0 scale-95"
             -->
 			{#if false}
-			            <div class="absolute inset-x-0 top-0 origin-top transform p-2 transition md:hidden">
-			                <div class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5">
-			                    <div class="flex items-center justify-between px-5 pt-4">
-			                        <div>
-			                            <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark.svg?from-color=teal&from-shade=500&to-color=cyan&to-shade=600&toShade=600" alt="">
-			                        </div>
-			                        <div class="-mr-2">
-			                            <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600">
-			                                <span class="sr-only">Close menu</span>
-			                                <!-- Heroicon name: outline/x-mark -->
-			                                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-			                                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-			                                </svg>
-			                            </button>
-			                        </div>
-			                    </div>
-			                    <div class="pt-5 pb-6">
-			                        <div class="space-y-1 px-2">
-										<a href="#1" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">Главная</a>
+				<div class="absolute inset-x-0 top-0 origin-top transform p-2 transition md:hidden">
+					<div
+						class="overflow-hidden rounded-lg bg-white shadow-md ring-1 ring-black ring-opacity-5"
+					>
+						<div class="flex items-center justify-between px-5 pt-4">
+							<div>
+								<img
+									class="h-8 w-auto"
+									src="https://tailwindui.com/img/logos/workflow-mark.svg?from-color=teal&from-shade=500&to-color=cyan&to-shade=600&toShade=600"
+									alt=""
+								/>
+							</div>
+							<div class="-mr-2">
+								<button
+									type="button"
+									class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-600"
+								>
+									<span class="sr-only">Close menu</span>
+									<!-- Heroicon name: outline/x-mark -->
+									<svg
+										class="h-6 w-6"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke-width="1.5"
+										stroke="currentColor"
+										aria-hidden="true"
+									>
+										<path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="pt-5 pb-6">
+							<div class="space-y-1 px-2">
+								<a
+									href="#1"
+									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+									>Главная</a
+								>
 
-										<a href="#2" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
-										>Производство</a
-										>
+								<a
+									href="#2"
+									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+									>Производство</a
+								>
 
-										<a href="#3" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
-										>Информация</a
-										>
+								<a
+									href="#3"
+									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+									>Информация</a
+								>
 
-										<a href="#4" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
-										>Применение</a
-										>
+								<a
+									href="#4"
+									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+									>Применение</a
+								>
 
-										<a href="#5" class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50">О нас</a>
-									</div>
-			                        <!-- <div class="mt-6 px-5">
+								<a
+									href="#5"
+									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
+									>О нас</a
+								>
+							</div>
+							<!-- <div class="mt-6 px-5">
 			                            <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
 			                        </div>
 			                        <div class="mt-6 px-5">
 			                            <p class="text-center text-base font-medium text-gray-700">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
 			                        </div> -->
-			                    </div>
-			                </div>
-			            </div>
-
-				{/if}
+						</div>
+					</div>
+				</div>
+			{/if}
 		</header>
 		<main>
 			<div
@@ -282,14 +318,15 @@
 					<div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80 ">
 						<div class="relative">
 							<img
-									class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 grayscale"
-									src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bg5.jpeg"
-									alt=""
+								class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 grayscale"
+								src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bg5.jpeg"
+								alt=""
 							/>
-							<div class="absolute inset-0 bg-cyan-500 mix-blend-multiply opacity-70" aria-hidden="true"></div>
-
+							<div
+								class="absolute inset-0 bg-cyan-500 mix-blend-multiply opacity-70"
+								aria-hidden="true"
+							/>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -316,15 +353,26 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
-</svg>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													class="w-6 h-6 text-white"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
+													/>
+												</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Продукция</h3>
 										<p class="mt-5 text-base text-gray-50">
-											Медицинская перекись водорода (35-40%) и техническая перекись водорода марки
-											А(35-40%) и Б(30-40%)
+											Медицинская перекись водорода (35‑40%) и техническая перекись водорода марки
+											А(35‑40%) и Б(30‑40%)
 										</p>
 									</div>
 								</div>
@@ -370,10 +418,25 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-</svg>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													class="w-6 h-6 text-white"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+													/>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+													/>
+												</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Доставка</h3>
@@ -392,9 +455,20 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
-</svg>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													class="w-6 h-6 text-white"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"
+													/>
+												</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Фасовка</h3>
@@ -413,17 +487,26 @@
 											<span
 												class="inline-flex items-center justify-center rounded-md bg-gradient-to-br from-blue-500 to-green-600 p-3 shadow-lg"
 											>
-
-												<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-white">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z" />
-</svg>
-
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													class="w-6 h-6 text-white"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10 11.25h4M3.375 7.5h17.25c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z"
+													/>
+												</svg>
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Хранение</h3>
 										<p class="mt-5 text-base text-gray-50">
 											Перекись хранится в помещениях складского назначения при температуре не выше
-											25-30 ºС
+											25‑30 ºС
 										</p>
 									</div>
 								</div>
@@ -550,7 +633,7 @@
 				</div>
 				<div class="mt-8 bg-white pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
 					<div class="relative">
-						<div class="absolute inset-0 h-1/2 bg-gray-100"></div>
+						<div class="absolute inset-0 h-1/2 bg-gray-100" />
 						<div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 							<div
 								class="max-w-lg mx-auto rounded-lg shadow-lg shadow-gray-400 overflow-hidden lg:max-w-none lg:flex"
@@ -579,7 +662,7 @@
 											<h3 class="flex-shrink-0 pr-4 bg-white text-2xl font-semibold text-cyan-600">
 												Реквизиты
 											</h3>
-											<div class="flex-1 border-t-2 border-gray-200"></div>
+											<div class="flex-1 border-t-2 border-gray-200" />
 										</div>
 										<ul
 											class="mt-8 space-y-5 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5"
@@ -703,7 +786,8 @@
 					/>
 					<div
 						aria-hidden="true"
-						class="absolute inset-0 bg-gradient-to-br from-blue-500 to-green-600 mix-blend-multiply"></div>
+						class="absolute inset-0 bg-gradient-to-br from-blue-500 to-green-600 mix-blend-multiply"
+					/>
 				</div>
 				<div
 					class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32"
