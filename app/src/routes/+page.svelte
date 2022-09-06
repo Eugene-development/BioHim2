@@ -181,7 +181,7 @@
 		<main>
 			<div
 				id="1"
-				class="bg-[url('https://storage.yandexcloud.net/brand-logo/biohim/foto/bg.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:overflow-hidden "
+				class="bg-[url('https://storage.yandexcloud.net/brand-logo/biohim/foto/bg.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:pb-0 lg:overflow-hidden "
 			>
 				<div class="mx-auto max-w-7xl lg:px-8">
 					<div class="lg:grid lg:grid-cols-2 lg:gap-4">
@@ -283,7 +283,7 @@
 						<div class="relative">
 							<img
 									class="rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 grayscale"
-									src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bg2.jpeg"
+									src="https://storage.yandexcloud.net/brand-logo/biohim/foto/bg5.jpeg"
 									alt=""
 							/>
 							<div class="absolute inset-0 bg-cyan-500 mix-blend-multiply opacity-70" aria-hidden="true"></div>
