@@ -1,39 +1,30 @@
 <script>
+	import { formEmail, mobileMenu } from '../stores';
+	import { useInvert } from '../functions/invert';
+	const { invert } = useInvert;
 
-
-	import {formEmail, mobileMenu} from "../stores"
-	import {useInvert} from "../functions/invert"
-	const {invert} = useInvert
-
-	const changeVisibleFormEmail = () => formEmail.update(invert)
+	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
-
-
-
 
 	const test = () => console.log(123);
 
-
-
-
 	let email = '';
 	const url = `/sendEmail`;
-	const apiCRUD =  {
+	const apiCRUD = {
 		baseURL: 'https://larux.ru:7721/',
 		headers: {
 			Authorization: `Bearer `
 		}
-	}
-	async function sendEmail(){
+	};
+	async function sendEmail() {
 		try {
-			const data = {email: email};
+			const data = { email: email };
 			await axios.post(url, data, apiCRUD);
 			changeVisibleFormEmail();
 		} catch (error) {
 			console.error(error);
 		}
 	}
-
 </script>
 
 <svelte:head>
@@ -302,38 +293,36 @@
 								</p>
 
 								<div class="mt-10 sm:mt-12 py-12">
-									<form on:submit|preventDefault|once={sendEmail} class="sm:mx-auto sm:max-w-xl lg:mx-0">
+									<form
+										on:submit|preventDefault|once={sendEmail}
+										class="sm:mx-auto sm:max-w-xl lg:mx-0"
+									>
 										<div class="sm:flex">
-
 											{#if !$formEmail}
-											<div class="min-w-0 flex-1">
-												<label for="email" class="sr-only">Ваша почта</label>
-												<input
-													class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
-													id="email"
-													placeholder="Ваша почта"
-													type="email"
-												/>
-											</div>
-											<div class="mt-3 sm:mt-0 sm:ml-3">
-												<button
-													class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
-													type="submit"
-												>
-													Запрос цены
-												</button>
-											</div>
+												<div class="min-w-0 flex-1">
+													<label for="email" class="sr-only">Ваша почта</label>
+													<input
+														class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+														id="email"
+														placeholder="Ваша почта"
+														type="email"
+													/>
+												</div>
+												<div class="mt-3 sm:mt-0 sm:ml-3">
+													<button
+														class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+														type="submit"
+													>
+														Запрос цены
+													</button>
+												</div>
 											{:else}
-											<span
-											class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+												<span
+													class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												>
 													Заявка отправлена. Ожидайте ответа на почту.
 												</span>
 											{/if}
-
-
-
-
 										</div>
 										<p class="mt-3 text-sm text-gray-300 sm:mt-4">
 											Отправьте вашу почту и получите актуальную цену на перекись водорода.
