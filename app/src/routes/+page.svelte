@@ -12,8 +12,8 @@
 	let email = '';
 	const url = `/sendEmail`;
 	const apiCRUD = {
-		baseURL: 'http://127.0.0.1:8000/',
-		// baseURL: 'https://larux.ru:7721/',
+		// baseURL: 'http://127.0.0.1:8000/',
+		baseURL: 'https://larux.ru:7721/',
 
 		headers: {
 			Authorization: `Bearer 8`
