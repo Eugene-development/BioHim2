@@ -1,4 +1,5 @@
 <script>
+	import axios from "axios";
 	import { formEmail, mobileMenu } from '../stores';
 	import { useInvert } from '../functions/invert';
 	const { invert } = useInvert;
@@ -11,9 +12,11 @@
 	let email = '';
 	const url = `/sendEmail`;
 	const apiCRUD = {
-		baseURL: 'https://larux.ru:7721/',
+		baseURL: 'http://127.0.0.1:8000/',
+		// baseURL: 'https://larux.ru:7721/',
+
 		headers: {
-			Authorization: `Bearer `
+			Authorization: `Bearer 8`
 		}
 	};
 	async function sendEmail() {
@@ -302,6 +305,7 @@
 												<div class="min-w-0 flex-1">
 													<label for="email" class="sr-only">Ваша почта</label>
 													<input
+														bind:value={email}
 														class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														id="email"
 														placeholder="Ваша почта"
