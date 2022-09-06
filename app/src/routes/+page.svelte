@@ -572,7 +572,7 @@
 									</p>
 									<p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p>
 									<p class="mt-6 text-base text-gray-700">
-										Менеджер: Александр
+										Ведущий специалист: Ходаков Игорь Викторович
 									</p>
 									<div class="mt-8">
 										<div class="flex items-center">
