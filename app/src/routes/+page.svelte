@@ -301,7 +301,7 @@
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
 										<div class="sm:flex">
-											{#if !$formEmail}
+											{#if $formEmail}
 												<div class="min-w-0 flex-1">
 													<label for="email" class="sr-only">Ваша почта</label>
 													<input
