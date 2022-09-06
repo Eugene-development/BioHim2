@@ -42,9 +42,6 @@
 		content="Оптовая продажа медицинской и технической перекиси водорода от производителя"
 	/>
 </svelte:head>
-{#if $formEmail}
-<p>{$formEmail}</p>
-{/if}
 
 <div class="bg-white">
 	<div class="relative overflow-hidden">
