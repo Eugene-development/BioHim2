@@ -1,5 +1,5 @@
 <script>
-	import axios from "axios";
+	import axios from 'axios';
 	import { formEmail, mobileMenu } from '../stores';
 	import { useInvert } from '../functions/invert';
 	const { invert } = useInvert;
