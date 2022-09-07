@@ -828,8 +828,8 @@
 				<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 					<img
 						class="h-full w-full object-cover"
-						src="https://storage.yandexcloud.net/brand-logo/biohim/foto/team.avif"
-						alt="команда"
+						src="https://storage.yandexcloud.net/brand-logo/biohim/foto/team4.png"
+						alt="Продажа перекиси водорода"
 					/>
 					<div
 						aria-hidden="true"
@@ -902,7 +902,7 @@
 					</div>
 				</nav>
 				<p class="mt-8 text-center text-base text-gray-400">
-					&copy; 2015-2022. Компания "БиоХим"
+					&copy; 2015-2022. Компания ООО ТК "ФОРВАРД ЛАЙН"
 					<br />Обслуживание сайта 8 (495) 147-55-50
 				</p>
 			</div>
