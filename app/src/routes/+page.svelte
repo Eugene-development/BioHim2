@@ -49,7 +49,7 @@
 					<div class="flex flex-1 items-center">
 						<div class="flex w-full items-center justify-between lg:w-auto">
 							<a href="#1">
-								<span class="sr-only">Work1</span>
+								<span class="sr-only">Work</span>
 								<img
 									class="h-8 w-auto sm:h-10"
 									src="https://storage.yandexcloud.net/brand-logo/biohim/logo/logo.svg"

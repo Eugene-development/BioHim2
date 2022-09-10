@@ -13,6 +13,11 @@ const config = {
 		alias: {
 			$content: 'src/content/layout'
 		}
+	},
+	vitePlugin: {
+		experimental: {
+			inspector: true,
+		}
 	}
 };
 
