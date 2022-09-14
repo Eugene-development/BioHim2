@@ -289,7 +289,7 @@
 									<span class="block text-cyan-100">ООО ТК "ФОРВАРД ЛАЙН"</span>
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
-								//TODO moderator
+								<!-- TODO moderator -->
 								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
 									Техническая и медицинская перекись водорода в IBC-контейнерах по оптовым ценам от
 									заводов производителей с доставкой или самовывозом. Вся продукция сопровождается
@@ -609,7 +609,7 @@
 							<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
 								Применение перекиси водорода
 							</p>
-							//TODO moderator
+							<!-- TODO moderator -->
 							<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700">
 								Техническая и медицинская перекись водорода применяются в разных отраслях
 								промышленности и в быту
@@ -646,7 +646,7 @@
 										class="w-full h-96 object-center object-cover"
 									/>
 								</div>
-								//TODO moderator
+								<!-- TODO moderator -->
 
 								<p class="mt-8 text-base text-gray-700">
 									<strong>Медицинская перекись водорода</strong> применяется в медучреждениях и лабораториях
