@@ -11,6 +11,8 @@
 
 	let email = '';
 	const url = `/sendEmail`;
+	// INFO: ENV file
+
 	const apiCRUD = {
 		// baseURL: 'http://127.0.0.1:8000/',
 		baseURL: 'https://larux.ru:7721/',
