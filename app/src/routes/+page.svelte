@@ -43,69 +43,67 @@
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
-			<div class="bg-main py-2">
-				<div
-					class="lg:hidden space-y-1 px-1 py-2 sm:px-4 md:px-8 bg-gradient-to-br from-blue-600 to-green-700"
-				>
+			<div class="lg:hidden px-1 py-2 sm:px-4 md:px-8 bg-gradient-to-br from-blue-600 to-green-700">
+				<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+				<div class="mx-auto flex items-center justify-between px-4 pt-1">
 					<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-					<div class="mx-auto flex items-center justify-between px-4">
-						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-						<!--                    <div class="flex">-->
-						<!--                        <svg class="hidden sm:block h-4 sm:h-5 md:h-6 w-4 sm:w-5 md:w-6 text-red-500" fill="none"-->
-						<!--                             stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"-->
-						<!--                             xmlns="http://www.w3.org/2000/svg">-->
-						<!--                            <path d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"-->
-						<!--                                  stroke-linecap="round"-->
-						<!--                                  stroke-linejoin="round"/>-->
-						<!--                        </svg>-->
-						<!--                        <a class="text-gray-300 pl-1 rounded-md text-xs sm:text-base md:text-lg font-medium"-->
-						<!--                           href="tel:+78005558111">8 800-555-8-111</a>-->
-						<!--                    </div>-->
+					<!--                    <div class="flex">-->
+					<!--                        <svg class="hidden sm:block h-4 sm:h-5 md:h-6 w-4 sm:w-5 md:w-6 text-red-500" fill="none"-->
+					<!--                             stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"-->
+					<!--                             xmlns="http://www.w3.org/2000/svg">-->
+					<!--                            <path d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"-->
+					<!--                                  stroke-linecap="round"-->
+					<!--                                  stroke-linejoin="round"/>-->
+					<!--                        </svg>-->
+					<!--                        <a class="text-gray-300 pl-1 rounded-md text-xs sm:text-base md:text-lg font-medium"-->
+					<!--                           href="tel:+78005558111">8 800-555-8-111</a>-->
+					<!--                    </div>-->
 
-						<div class="flex ">
-							<svg
-								class="h-4 w-4 sm:h-6 sm:w-6 text-gray-100 "
-								fill="none"
-								stroke="currentColor"
-								stroke-width="2"
-								viewBox="0 0 24 24"
-								xmlns="http://www.w3.org/2000/svg"
-							>
-								<path
-									d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
-									stroke-linecap="round"
-									stroke-linejoin="round"
-								/>
-							</svg>
-							<a
-								class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
-								href="tel:+79023033654">+7 (495) 080-81-01</a
-							>
-						</div>
+					<div class="flex ">
+						<svg
+							class="h-4 w-4 sm:h-6 sm:w-6 text-gray-100 "
+							fill="none"
+							stroke="currentColor"
+							stroke-width="2"
+							viewBox="0 0 24 24"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+							/>
+						</svg>
+						<a
+							class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
+							href="tel:+79023033654">+7 (495) 080-81-01</a
+						>
+					</div>
 
-						<div class="flex">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="h-4 w-4 sm:h-6 sm:w-6 text-gray-100 "
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
-								stroke-width="2"
-							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
-								/>
-							</svg>
-							<a
-								class="rounded-md pl-1 text-xs font-medium text-gray-100 sm:text-base md:text-lg"
-								href="tel:+79306888862">biohim.org@yandex.ru</a
-							>
-						</div>
+					<div class="flex">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="h-4 w-4 sm:h-6 sm:w-6 text-gray-100 "
+							fill="none"
+							viewBox="0 0 24 24"
+							stroke="currentColor"
+							stroke-width="2"
+						>
+							<path
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
+							/>
+						</svg>
+						<a
+							class="rounded-md pl-1 text-xs font-medium text-gray-100 sm:text-base md:text-lg"
+							href="tel:+79306888862">biohim.org@yandex.ru</a
+						>
 					</div>
 				</div>
+			</div>
 
+			<div class="bg-main py-2">
 				<nav
 					class="relative mx-auto flex max-w-full items-center justify-between px-4 py-2 sm:px-6"
 					aria-label="Global"
