@@ -40,7 +40,7 @@
 	/>
 </svelte:head>
 
-<div class="bg-white">
+<div class="">
 	<div class="relative overflow-hidden">
 		<header class="relative">
 			<div class="lg:hidden px-1 py-2 sm:px-4 md:px-8 bg-gradient-to-br from-blue-600 to-green-700">
@@ -271,30 +271,35 @@
 						<div class="pt-5 pb-6">
 							<div class="space-y-1 px-2">
 								<a
+									on:click={changeVisibleMobileMenu}
 									href="#1"
 									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
 									>Главная</a
 								>
 
 								<a
+									on:click={changeVisibleMobileMenu}
 									href="#2"
 									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
 									>Производство</a
 								>
 
 								<a
+									on:click={changeVisibleMobileMenu}
 									href="#3"
 									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
 									>Информация</a
 								>
 
 								<a
+									on:click={changeVisibleMobileMenu}
 									href="#4"
 									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
 									>Применение</a
 								>
 
 								<a
+									on:click={changeVisibleMobileMenu}
 									href="#5"
 									class="block rounded-md px-3 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
 									>О нас</a
