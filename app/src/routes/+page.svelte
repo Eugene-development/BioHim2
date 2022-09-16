@@ -317,7 +317,7 @@
 			{/if}
 		</header>
 
-		<main>
+		<main class="bg-main">
 			<div
 				id="1"
 				class="bg-[url('https://storage.yandexcloud.net/brand-logo/biohim/foto/bg.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:pb-0 lg:overflow-hidden "
