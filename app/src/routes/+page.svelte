@@ -43,7 +43,7 @@
 <div class="bg-white">
 	<div class="relative overflow-hidden">
 		<header class="relative">
-			<div class="bg-main">
+			<div class="bg-main py-2">
 				<div
 					class="lg:hidden space-y-1 px-1 py-2 sm:px-4 md:px-8 bg-gradient-to-br from-blue-600 to-green-700"
 				>
