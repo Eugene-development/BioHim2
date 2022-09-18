@@ -161,7 +161,7 @@
 								>Применение</a
 							>
 
-							<a href="#5" class="text-base font-medium text-white hover:text-gray-300">О нас </a>
+							<a href="#5" class="text-base font-medium text-white hover:text-gray-300">О_нас </a>
 						</div>
 					</div>
 					<div class="hidden xl:flex xl:items-center xl:space-x-6">
