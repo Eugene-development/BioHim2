@@ -43,7 +43,7 @@
 <div class="">
 	<div class="xl:hidden px-1 py-2 sm:px-4 md:px-8 bg-gradient-to-br from-blue-600 to-green-700">
 		<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-		<div class="mx-auto flex items-center justify-between px-4 pt-1">
+		<div class="mx-auto flex items-center justify-between px-4">
 			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 			<!--                    <div class="flex">-->
 			<!--                        <svg class="hidden sm:block h-4 sm:h-5 md:h-6 w-4 sm:w-5 md:w-6 text-red-500" fill="none"-->
@@ -103,9 +103,9 @@
 
 	<div class="relative overflow-hidden">
 		<header class="relative">
-			<div class="bg-main py-2">
+			<div class="bg-main py-2 border-b-2 border-cyan-100">
 				<nav
-					class="relative mx-auto flex max-w-full items-center justify-between px-4 py-2 sm:px-6"
+					class="relative mx-auto flex max-w-full items-center justify-between px-4 py-2 sm:px-6 "
 					aria-label="Global"
 				>
 					<div class="flex flex-1 items-center">
