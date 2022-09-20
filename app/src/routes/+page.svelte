@@ -30,16 +30,30 @@
 			console.error(error);
 		}
 	}
+
+	const title = 'Техническая и медицинская перекись водорода крупным и мелким оптом';
+	const title_v2 = 'Техническая перекись водорода крупным и мелким оптом';
+	const description =
+		'Оптовая продажа технической и медицинской перекиси водорода от производителя';
+	const description_v2 = 'Оптовая продажа технической перекиси водорода от производителя';
+
+	// export let content = {
+	// 	title,
+	// 	description
+	// };
+
+	export let content = {
+		title: title_v2,
+		description: description_v2
+	};
 </script>
 
 <svelte:head>
-	<title>Техническая и медицинская перекись водорода крупным и мелким оптом</title>
-	<meta
-		name="description"
-		content="Оптовая продажа технической и медицинской перекиси водорода от производителя"
-	/>
+	<title>{content.title}</title>
+	<meta name="description" content={content.description} />
 </svelte:head>
 
+<p>{content.title}</p>
 <div class="">
 	<div class="xl:hidden px-1 py-2 sm:px-4 md:px-8 bg-gradient-to-br from-blue-600 to-green-700">
 		<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
