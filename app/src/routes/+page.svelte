@@ -10,6 +10,7 @@
 	const test = () => console.log(123);
 
 	let email = '';
+	let volume = '';
 	const url = `/sendEmail`;
 	// INFO: ENV file
 
@@ -23,7 +24,7 @@
 	};
 	async function sendEmail() {
 		try {
-			const data = { email: email };
+			const data = { email: email, volume };
 			await axios.post(url, data, apiCRUD);
 			changeVisibleFormEmail();
 		} catch (error) {
@@ -362,7 +363,7 @@
 						<div
 							class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
-							<div class=" lg:py-48 py-12 bg-main bg-opacity-60 px-2">
+							<div class=" lg:py-24 py-12 bg-main bg-opacity-60 px-2">
 								<span
 									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
@@ -402,6 +403,236 @@
 										on:submit|preventDefault|once={sendEmail}
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
+										<div class="my-8">
+											<!-- svelte-ignore a11y-label-has-associated-control -->
+											<label id="listbox-label" class="block text-sm font-medium text-gray-700"
+												>Assigned to</label
+											>
+											<div class="relative mt-1">
+												<button
+													type="button"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+													aria-haspopup="listbox"
+													aria-expanded="true"
+													aria-labelledby="listbox-label"
+												>
+													<span class="block truncate">Tom Cook</span>
+													<span
+														class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+													>
+														<!-- Heroicon name: mini/chevron-up-down -->
+														<svg
+															class="h-5 w-5 text-gray-400"
+															xmlns="http://www.w3.org/2000/svg"
+															viewBox="0 0 20 20"
+															fill="currentColor"
+															aria-hidden="true"
+														>
+															<path
+																fill-rule="evenodd"
+																d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z"
+																clip-rule="evenodd"
+															/>
+														</svg>
+													</span>
+												</button>
+
+												<ul
+													class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
+													tabindex="-1"
+													role="listbox"
+													aria-labelledby="listbox-label"
+													aria-activedescendant="listbox-option-3"
+												>
+													<li
+														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
+														id="listbox-option-0"
+														role="option"
+													>
+														<span class="font-normal block truncate">Марка "А"</span>
+														<span
+															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
+														>
+															<!-- Heroicon name: mini/check -->
+															<svg
+																class="h-5 w-5"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+														</span>
+													</li>
+													<li
+														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
+														id="listbox-option-0"
+														role="option"
+													>
+														<span class="font-normal block truncate">Марка "Б"</span>
+														<span
+															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
+														>
+															<!-- Heroicon name: mini/check -->
+															<svg
+																class="h-5 w-5"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+														</span>
+													</li>
+													<li
+														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
+														id="listbox-option-0"
+														role="option"
+													>
+														<span class="font-normal block truncate">Медицинская</span>
+														<span
+															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
+														>
+															<!-- Heroicon name: mini/check -->
+															<svg
+																class="h-5 w-5"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+														</span>
+													</li>
+
+													<!-- More items... -->
+												</ul>
+											</div>
+										</div>
+										<div class="my-8">
+											<!-- svelte-ignore a11y-label-has-associated-control -->
+											<label id="listbox-label" class="block text-sm font-medium text-gray-700"
+												>Assigned to</label
+											>
+											<div class="relative mt-1">
+												<button
+													type="button"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+													aria-haspopup="listbox"
+													aria-expanded="true"
+													aria-labelledby="listbox-label"
+												>
+													<span class="block truncate">Tom Cook</span>
+													<span
+														class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
+													>
+														<!-- Heroicon name: mini/chevron-up-down -->
+														<svg
+															class="h-5 w-5 text-gray-400"
+															xmlns="http://www.w3.org/2000/svg"
+															viewBox="0 0 20 20"
+															fill="currentColor"
+															aria-hidden="true"
+														>
+															<path
+																fill-rule="evenodd"
+																d="M10 3a.75.75 0 01.55.24l3.25 3.5a.75.75 0 11-1.1 1.02L10 4.852 7.3 7.76a.75.75 0 01-1.1-1.02l3.25-3.5A.75.75 0 0110 3zm-3.76 9.2a.75.75 0 011.06.04l2.7 2.908 2.7-2.908a.75.75 0 111.1 1.02l-3.25 3.5a.75.75 0 01-1.1 0l-3.25-3.5a.75.75 0 01.04-1.06z"
+																clip-rule="evenodd"
+															/>
+														</svg>
+													</span>
+												</button>
+
+												<ul
+													class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
+													tabindex="-1"
+													role="listbox"
+													aria-labelledby="listbox-label"
+													aria-activedescendant="listbox-option-3"
+												>
+													<li
+														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
+														id="listbox-option-0"
+														role="option"
+													>
+														<span class="font-normal block truncate">Кубы</span>
+														<span
+															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
+														>
+															<!-- Heroicon name: mini/check -->
+															<svg
+																class="h-5 w-5"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+														</span>
+													</li>
+													<li
+														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
+														id="listbox-option-0"
+														role="option"
+													>
+														<span class="font-normal block truncate">Канистры</span>
+														<span
+															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
+														>
+															<!-- Heroicon name: mini/check -->
+															<svg
+																class="h-5 w-5"
+																xmlns="http://www.w3.org/2000/svg"
+																viewBox="0 0 20 20"
+																fill="currentColor"
+																aria-hidden="true"
+															>
+																<path
+																	fill-rule="evenodd"
+																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																	clip-rule="evenodd"
+																/>
+															</svg>
+														</span>
+													</li>
+
+													<!-- More items... -->
+												</ul>
+											</div>
+										</div>
+
+										<div class="min-w-0 flex-1">
+											<label for="volume" class="sr-only">Желаемый объём</label>
+											<input
+												required
+												bind:value={volume}
+												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+												id="volume"
+												placeholder="Желаемый объём"
+												type="volume"
+											/>
+										</div>
+
 										<div class="sm:flex">
 											{#if $formEmail}
 												<div class="min-w-0 flex-1">
@@ -415,6 +646,7 @@
 														type="email"
 													/>
 												</div>
+
 												<div class="mt-3 sm:mt-0 sm:ml-3">
 													<button
 														class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
