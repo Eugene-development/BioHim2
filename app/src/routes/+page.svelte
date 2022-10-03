@@ -419,12 +419,13 @@
 										on:submit|preventDefault|once={sendEmail}
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
-										<div class="my-8">
+										<div class="my-2">
 											<div class="relative mt-1" value={brandSelected}>
 												<button
 													on:click={changeVisibleSelectBrand}
+													required
 													type="button"
-													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-sm"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white px-4 py-3 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-base text-gray-800"
 													aria-haspopup="listbox"
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
@@ -493,12 +494,13 @@
 												{/if}
 											</div>
 										</div>
-										<div class="my-8">
+										<div class="my-2">
 											<div class="relative mt-1">
 												<button
 													on:click={changeVisibleSelectContainer}
+													required
 													type="button"
-													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-sm"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white  px-4 py-3 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-base text-gray-800"
 													aria-haspopup="listbox"
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
@@ -568,12 +570,12 @@
 											</div>
 										</div>
 
-										<div class="min-w-0 flex-1">
+										<div class="my-2">
 											<label for="volume" class="sr-only">Желаемый объём</label>
 											<input
 												required
 												bind:value={volume}
-												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												id="volume"
 												placeholder="Желаемый объём"
 												type="volume"
@@ -587,7 +589,7 @@
 													<input
 														required
 														bind:value={email}
-														class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+														class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														id="email"
 														placeholder="Ваша почта"
 														type="email"
@@ -599,7 +601,7 @@
 														class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														type="submit"
 													>
-														Запрос цены
+														Отправить запрос
 													</button>
 												</div>
 											{:else}
