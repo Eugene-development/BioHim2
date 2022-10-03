@@ -31,8 +31,8 @@
 	// INFO: ENV file
 
 	const apiCRUD = {
-		// baseURL: 'http://127.0.0.1:8000/',
-		baseURL: 'https://larux.ru:7721/',
+		baseURL: 'http://127.0.0.1:8000/',
+		// baseURL: 'https://larux.ru:7721/',
 
 		headers: {
 			Authorization: `Bearer 8`
@@ -41,6 +41,7 @@
 	async function sendEmail() {
 		try {
 			const data = { brandSelected, containerSelected, email, volume };
+			console.log(data);
 			await axios.post(url, data, apiCRUD);
 			changeVisibleFormEmail();
 		} catch (error) {
@@ -419,7 +420,7 @@
 										on:submit|preventDefault|once={sendEmail}
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
-										<div class="my-2">
+										<div class="my-3">
 											<div class="relative mt-1" value={brandSelected}>
 												<button
 													on:click={changeVisibleSelectBrand}
@@ -494,7 +495,7 @@
 												{/if}
 											</div>
 										</div>
-										<div class="my-2">
+										<div class="my-3">
 											<div class="relative mt-1">
 												<button
 													on:click={changeVisibleSelectContainer}
@@ -570,7 +571,7 @@
 											</div>
 										</div>
 
-										<div class="my-2">
+										<div class="my-3">
 											<label for="volume" class="sr-only">Желаемый объём</label>
 											<input
 												required
@@ -578,7 +579,7 @@
 												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												id="volume"
 												placeholder="Желаемый объём"
-												type="volume"
+												type="text"
 											/>
 										</div>
 
