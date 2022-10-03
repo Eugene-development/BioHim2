@@ -1,11 +1,13 @@
 <script>
 	import axios from 'axios';
-	import { formEmail, mobileMenu } from '../stores';
+
+	import { formEmail, mobileMenu, selectBrand } from '../stores';
 	import { useInvert } from '../functions/invert';
 	const { invert } = useInvert;
 
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
+	const changeVisibleSelectBrand = () => selectBrand.update(invert);
 
 	// const test = () => console.log(123);
 
@@ -14,9 +16,9 @@
 		{ id: 2, value: `Канистра` }
 	];
 	let brand = [
-		{ id: 1, value: `Марка А` },
-		{ id: 2, value: `Марка Б` },
-		{ id: 2, value: `Медицинская` }
+		{ id: 1, value: `Марка А`, unavailable: false },
+		{ id: 2, value: `Марка Б`, unavailable: false },
+		{ id: 3, value: `Медицинская`, unavailable: false }
 	];
 	let brandSelected = 'Выберите марку перекиси';
 
@@ -419,8 +421,9 @@
 											<label id="listbox-label" class="block text-sm font-medium text-gray-100"
 												>Выберите марку перекиси</label
 											>
-											<div class="relative mt-1">
+											<div class="relative mt-1" value={brandSelected}>
 												<button
+													on:click={changeVisibleSelectBrand}
 													type="button"
 													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
 													aria-haspopup="listbox"
@@ -448,41 +451,45 @@
 													</span>
 												</button>
 
-												<ul
-													class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
-													tabindex="-1"
-													role="listbox"
-													aria-labelledby="listbox-label"
-													aria-activedescendant="listbox-option-3"
-												>
-													{#each brand as { value }}
-														<li
-															class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
-															id="listbox-option-0"
-															role="option"
-														>
-															<span class="font-normal block truncate">{value}</span>
-															<span
-																class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
+												{#if $selectBrand}
+													<ul
+														class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
+														tabindex="-1"
+														role="listbox"
+														aria-labelledby="listbox-label"
+														aria-activedescendant="listbox-option-3"
+													>
+														{#each brand as item (item.id)}
+															<li
+																value={item}
+																disabled={item.unavailable}
+																class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
+																id="listbox-option-0"
+																role="option"
 															>
-																<!-- Heroicon name: mini/check -->
-																<svg
-																	class="h-5 w-5"
-																	xmlns="http://www.w3.org/2000/svg"
-																	viewBox="0 0 20 20"
-																	fill="currentColor"
-																	aria-hidden="true"
+																<span class="font-normal block truncate">{item.value}</span>
+																<span
+																	class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
 																>
-																	<path
-																		fill-rule="evenodd"
-																		d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																		clip-rule="evenodd"
-																	/>
-																</svg>
-															</span>
-														</li>
-													{/each}
-												</ul>
+																	<!-- Heroicon name: mini/check -->
+																	<svg
+																		class="h-5 w-5"
+																		xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 20 20"
+																		fill="currentColor"
+																		aria-hidden="true"
+																	>
+																		<path
+																			fill-rule="evenodd"
+																			d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																			clip-rule="evenodd"
+																		/>
+																	</svg>
+																</span>
+															</li>
+														{/each}
+													</ul>
+												{/if}
 											</div>
 										</div>
 										<div class="my-8">
