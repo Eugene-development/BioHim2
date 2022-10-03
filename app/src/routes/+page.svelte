@@ -7,7 +7,18 @@
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
 
-	const test = () => console.log(123);
+	// const test = () => console.log(123);
+
+	let container = [
+		{ id: 1, value: `Куб` },
+		{ id: 2, value: `Канистра` }
+	];
+	let brand = [
+		{ id: 1, value: `Марка А` },
+		{ id: 2, value: `Марка Б` },
+		{ id: 2, value: `Медицинская` }
+	];
+	let brandSelected = 'Выберите марку перекиси';
 
 	let email = '';
 	let volume = '';
@@ -405,8 +416,8 @@
 									>
 										<div class="my-8">
 											<!-- svelte-ignore a11y-label-has-associated-control -->
-											<label id="listbox-label" class="block text-sm font-medium text-gray-700"
-												>Assigned to</label
+											<label id="listbox-label" class="block text-sm font-medium text-gray-100"
+												>Выберите марку перекиси</label
 											>
 											<div class="relative mt-1">
 												<button
@@ -416,7 +427,7 @@
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
 												>
-													<span class="block truncate">Tom Cook</span>
+													<span class="block truncate">{brandSelected}</span>
 													<span
 														class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
 													>
@@ -444,83 +455,33 @@
 													aria-labelledby="listbox-label"
 													aria-activedescendant="listbox-option-3"
 												>
-													<li
-														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
-														id="listbox-option-0"
-														role="option"
-													>
-														<span class="font-normal block truncate">Марка "А"</span>
-														<span
-															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
+													{#each brand as { value }}
+														<li
+															class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
+															id="listbox-option-0"
+															role="option"
 														>
-															<!-- Heroicon name: mini/check -->
-															<svg
-																class="h-5 w-5"
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																aria-hidden="true"
+															<span class="font-normal block truncate">{value}</span>
+															<span
+																class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
 															>
-																<path
-																	fill-rule="evenodd"
-																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</span>
-													</li>
-													<li
-														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
-														id="listbox-option-0"
-														role="option"
-													>
-														<span class="font-normal block truncate">Марка "Б"</span>
-														<span
-															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
-														>
-															<!-- Heroicon name: mini/check -->
-															<svg
-																class="h-5 w-5"
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</span>
-													</li>
-													<li
-														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
-														id="listbox-option-0"
-														role="option"
-													>
-														<span class="font-normal block truncate">Медицинская</span>
-														<span
-															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
-														>
-															<!-- Heroicon name: mini/check -->
-															<svg
-																class="h-5 w-5"
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</span>
-													</li>
-
-													<!-- More items... -->
+																<!-- Heroicon name: mini/check -->
+																<svg
+																	class="h-5 w-5"
+																	xmlns="http://www.w3.org/2000/svg"
+																	viewBox="0 0 20 20"
+																	fill="currentColor"
+																	aria-hidden="true"
+																>
+																	<path
+																		fill-rule="evenodd"
+																		d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																		clip-rule="evenodd"
+																	/>
+																</svg>
+															</span>
+														</li>
+													{/each}
 												</ul>
 											</div>
 										</div>
