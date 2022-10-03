@@ -1,26 +1,29 @@
 <script>
 	import axios from 'axios';
 
-	import { formEmail, mobileMenu, selectBrand } from '../stores';
+	import { formEmail, mobileMenu, selectBrand, selectContainer } from '../stores';
 	import { useInvert } from '../functions/invert';
 	const { invert } = useInvert;
 
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
 	const changeVisibleSelectBrand = () => selectBrand.update(invert);
+	const changeVisibleSelectContainer = () => selectContainer.update(invert);
 
 	// const test = () => console.log(123);
 
-	let container = [
-		{ id: 1, value: `Куб` },
-		{ id: 2, value: `Канистра` }
-	];
-	let brand = [
+	let brands = [
 		{ id: 1, value: `Марка А`, unavailable: false },
 		{ id: 2, value: `Марка Б`, unavailable: false },
 		{ id: 3, value: `Медицинская`, unavailable: false }
 	];
 	let brandSelected = 'Выберите марку перекиси';
+
+	let containers = [
+		{ id: 1, value: `Куб` },
+		{ id: 2, value: `Канистра` }
+	];
+	let containerSelected = 'Выберите тару';
 
 	let email = '';
 	let volume = '';
@@ -37,7 +40,7 @@
 	};
 	async function sendEmail() {
 		try {
-			const data = { email: email, volume };
+			const data = { brandSelected, containerSelected, email, volume };
 			await axios.post(url, data, apiCRUD);
 			changeVisibleFormEmail();
 		} catch (error) {
@@ -417,15 +420,11 @@
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
 										<div class="my-8">
-											<!-- svelte-ignore a11y-label-has-associated-control -->
-											<label id="listbox-label" class="block text-sm font-medium text-gray-100"
-												>Выберите марку перекиси</label
-											>
 											<div class="relative mt-1" value={brandSelected}>
 												<button
 													on:click={changeVisibleSelectBrand}
 													type="button"
-													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-sm"
 													aria-haspopup="listbox"
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
@@ -459,15 +458,17 @@
 														aria-labelledby="listbox-label"
 														aria-activedescendant="listbox-option-3"
 													>
-														{#each brand as item (item.id)}
+														{#each brands as { value }, i}
 															<li
-																value={item}
-																disabled={item.unavailable}
+																on:click={(e) => {
+																	brandSelected = e.target.innerText;
+																	changeVisibleSelectBrand();
+																}}
 																class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
 																id="listbox-option-0"
 																role="option"
 															>
-																<span class="font-normal block truncate">{item.value}</span>
+																<span class="font-normal block truncate">{value}</span>
 																<span
 																	class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
 																>
@@ -493,19 +494,16 @@
 											</div>
 										</div>
 										<div class="my-8">
-											<!-- svelte-ignore a11y-label-has-associated-control -->
-											<label id="listbox-label" class="block text-sm font-medium text-gray-700"
-												>Assigned to</label
-											>
 											<div class="relative mt-1">
 												<button
+													on:click={changeVisibleSelectContainer}
 													type="button"
-													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-1 focus:ring-indigo-500 sm:text-sm"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white py-2 pl-3 pr-10 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-sm"
 													aria-haspopup="listbox"
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
 												>
-													<span class="block truncate">Tom Cook</span>
+													<span class="block truncate">{containerSelected}</span>
 													<span
 														class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
 													>
@@ -526,66 +524,47 @@
 													</span>
 												</button>
 
-												<ul
-													class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
-													tabindex="-1"
-													role="listbox"
-													aria-labelledby="listbox-label"
-													aria-activedescendant="listbox-option-3"
-												>
-													<li
-														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
-														id="listbox-option-0"
-														role="option"
+												{#if $selectContainer}
+													<ul
+														class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm"
+														tabindex="-1"
+														role="listbox"
+														aria-labelledby="listbox-label"
+														aria-activedescendant="listbox-option-3"
 													>
-														<span class="font-normal block truncate">Кубы</span>
-														<span
-															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
-														>
-															<!-- Heroicon name: mini/check -->
-															<svg
-																class="h-5 w-5"
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																aria-hidden="true"
+														{#each containers as { value }, i}
+															<li
+																on:click={(e) => {
+																	containerSelected = e.target.innerText;
+																	changeVisibleSelectContainer();
+																}}
+																class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
+																id="listbox-option-0"
+																role="option"
 															>
-																<path
-																	fill-rule="evenodd"
-																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</span>
-													</li>
-													<li
-														class="text-gray-900 relative cursor-default select-none py-2 pl-3 pr-9"
-														id="listbox-option-0"
-														role="option"
-													>
-														<span class="font-normal block truncate">Канистры</span>
-														<span
-															class="text-indigo-600 absolute inset-y-0 right-0 flex items-center pr-4"
-														>
-															<!-- Heroicon name: mini/check -->
-															<svg
-																class="h-5 w-5"
-																xmlns="http://www.w3.org/2000/svg"
-																viewBox="0 0 20 20"
-																fill="currentColor"
-																aria-hidden="true"
-															>
-																<path
-																	fill-rule="evenodd"
-																	d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																	clip-rule="evenodd"
-																/>
-															</svg>
-														</span>
-													</li>
-
-													<!-- More items... -->
-												</ul>
+																<span class="font-normal block truncate">{value}</span>
+																<span
+																	class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
+																>
+																	<!-- Heroicon name: mini/check -->
+																	<svg
+																		class="h-5 w-5"
+																		xmlns="http://www.w3.org/2000/svg"
+																		viewBox="0 0 20 20"
+																		fill="currentColor"
+																		aria-hidden="true"
+																	>
+																		<path
+																			fill-rule="evenodd"
+																			d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																			clip-rule="evenodd"
+																		/>
+																	</svg>
+																</span>
+															</li>
+														{/each}
+													</ul>
+												{/if}
 											</div>
 										</div>
 
@@ -1129,7 +1108,7 @@
 
 			<!-- CTA Section -->
 			<div class="relative bg-main">
-				<div class="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+				<div class="relative h-56 bg-cyan-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
 					<img
 						class="h-full w-full object-cover"
 						src="https://storage.yandexcloud.net/brand-logo/biohim/foto/team4.png"
