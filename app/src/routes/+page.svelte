@@ -17,17 +17,18 @@
 		{ id: 2, value: `Марка Б`, unavailable: false },
 		{ id: 3, value: `Медицинская`, unavailable: false }
 	];
-	let brandSelected = 'Выберите марку перекиси';
 
 	let containers = [
 		{ id: 1, value: `Куб` },
 		{ id: 2, value: `Канистра` }
 	];
-	let containerSelected = 'Выберите тару';
 
-	let email = '';
+	let brandSelected = 'Выберите марку перекиси';
+	let containerSelected = 'Выберите тару';
 	let volume = '';
-	const url = `/sendEmail`;
+	let email = '';
+
+	const url = `/sendMainFormBH`;
 	// INFO: ENV file
 
 	const apiCRUD = {
@@ -41,7 +42,7 @@
 	async function sendEmail() {
 		try {
 			const data = { brand: brandSelected, container: containerSelected, volume, email };
-			console.log(data);
+			// console.log(data);
 			changeVisibleFormEmail();
 
 			await axios.post(url, data, apiCRUD);
