@@ -31,8 +31,8 @@
 	// INFO: ENV file
 
 	const apiCRUD = {
-		baseURL: 'http://127.0.0.1:8000/',
-		// baseURL: 'https://larux.ru:7721/',
+		// baseURL: 'http://127.0.0.1:8000/',
+		baseURL: 'https://larux.ru:7721/',
 
 		headers: {
 			Authorization: `Bearer 8`
@@ -40,10 +40,11 @@
 	};
 	async function sendEmail() {
 		try {
-			const data = { brandSelected, containerSelected, email, volume };
+			const data = { brand: brandSelected, container: containerSelected, volume, email };
 			console.log(data);
-			await axios.post(url, data, apiCRUD);
 			changeVisibleFormEmail();
+
+			await axios.post(url, data, apiCRUD);
 		} catch (error) {
 			console.error(error);
 		}
