@@ -19,8 +19,8 @@
 	];
 
 	let containers = [
-		{ id: 1, value: `Куб` },
-		{ id: 2, value: `Канистра` }
+		{ id: 1, value: `Евро куб` },
+		{ id: 2, value: `Канистра 30 литров` }
 	];
 
 	let brandSelected = 'Выберите марку перекиси';
