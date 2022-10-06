@@ -9,12 +9,8 @@
 
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
-	const changeVisibleSelectBrand = () => {
-		selectBrand.update(invert);
-	};
-	const changeVisibleSelectContainer = () => {
-		selectContainer.update(invert);
-	};
+	const changeVisibleSelectBrand = () => selectBrand.update(invert);
+	const changeVisibleSelectContainer = () => selectContainer.update(invert);
 
 	const closeVisibleSelected = () => {
 		selectContainer.update(invertToFalse);
