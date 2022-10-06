@@ -3,12 +3,19 @@
 
 	import { formEmail, mobileMenu, selectBrand, selectContainer } from '../stores';
 	import { useInvert } from '../functions/invert';
-	const { invert } = useInvert;
+	import { useClick } from '../functions/click_outside';
+	const { invert, invertToFalse } = useInvert;
+	const { clickOutside } = useClick;
 
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
 	const changeVisibleSelectBrand = () => selectBrand.update(invert);
 	const changeVisibleSelectContainer = () => selectContainer.update(invert);
+
+	const closeVisibleSelected = () => {
+		selectBrand.update(invertToFalse);
+		selectContainer.update(invertToFalse);
+	};
 
 	// const test = () => console.log(123);
 
@@ -42,7 +49,6 @@
 	async function sendEmail() {
 		try {
 			const data = { brand: brandSelected, container: containerSelected, volume, email };
-			// console.log(data);
 			changeVisibleFormEmail();
 
 			await axios.post(url, data, apiCRUD);
@@ -422,7 +428,7 @@
 										on:submit|preventDefault|once={sendEmail}
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
-										<div class="my-3">
+										<div class="my-3" on:outclick={closeVisibleSelected} use:clickOutside>
 											<div class="relative mt-1" value={brandSelected}>
 												<button
 													on:click={changeVisibleSelectBrand}
@@ -497,7 +503,7 @@
 												{/if}
 											</div>
 										</div>
-										<div class="my-3">
+										<div class="my-3" on:outclick={closeVisibleSelected} use:clickOutside>
 											<div class="relative mt-1">
 												<button
 													on:click={changeVisibleSelectContainer}
