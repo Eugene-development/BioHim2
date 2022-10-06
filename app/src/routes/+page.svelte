@@ -10,12 +10,12 @@
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
 	const changeVisibleSelectBrand = () => {
+		console.log(123);
 		selectBrand.update(invert);
-		selectContainer.update(invertToFalse);
 	};
 	const changeVisibleSelectContainer = () => {
+		console.log(456);
 		selectContainer.update(invert);
-		selectBrand.update(invertToFalse);
 	};
 
 	const closeVisibleSelectedContainer = () => selectContainer.update(invertToFalse);
@@ -433,7 +433,7 @@
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
 										<div class="my-3">
-											<div class="relative mt-1" value={brandSelected}>
+											<div class="relative mt-1">
 												<button
 													on:click={changeVisibleSelectBrand}
 													required
