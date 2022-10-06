@@ -16,9 +16,13 @@
 	const changeVisibleSelectContainer = () => {
 		selectContainer.update(invert);
 		selectBrand.update(invertToFalse);
+		console.log(456);
 	};
 
-	const closeVisibleSelected = () => {};
+	const closeVisibleSelectedContainer = () => {
+		selectContainer.update(invertToFalse);
+		console.log(123);
+	};
 
 	// const test = () => console.log(123);
 
@@ -509,7 +513,7 @@
 										<div class="my-3">
 											<div class="relative mt-1">
 												<!-- <div
-												on:outclick={closeVisibleSelected}
+												on:outclick={closeVisibleSelectedContainer}
 												use:clickOutside
 												class="relative mt-1"
 											> -->
@@ -544,45 +548,51 @@
 												</button>
 
 												{#if $selectContainer}
-													<ul
-														class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm border-2 border-cyan-500"
-														tabindex="-1"
-														role="listbox"
-														aria-labelledby="listbox-label"
-														aria-activedescendant="listbox-option-3"
-													>
-														{#each containers as { value }, i}
-															<li
-																on:click={(e) => {
-																	containerSelected = e.target.innerText;
-																	changeVisibleSelectContainer();
-																}}
-																class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
-																id="listbox-option-0"
-																role="option"
-															>
-																<span class="font-normal block truncate">{value}</span>
-																<span
-																	class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
+													<div on:outclick={closeVisibleSelectedContainer} use:clickOutside>
+														<ul
+															class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm border-2 border-cyan-500"
+															tabindex="-1"
+															role="listbox"
+															aria-labelledby="listbox-label"
+															aria-activedescendant="listbox-option-3"
+														>
+															{#each containers as { value }, i}
+																<li
+																	class="text-gray-900 hover:text-white hover:bg-cyan-600 relative cursor-default select-none py-2 pl-3 pr-9"
+																	id="listbox-option-0"
+																	role="option"
 																>
-																	<!-- Heroicon name: mini/check -->
-																	<svg
-																		class="h-5 w-5"
-																		xmlns="http://www.w3.org/2000/svg"
-																		viewBox="0 0 20 20"
-																		fill="currentColor"
-																		aria-hidden="true"
+																	<button
+																		class="w-full text-left"
+																		on:click={(e) => {
+																			containerSelected = e.target.innerText;
+																			changeVisibleSelectContainer();
+																		}}
 																	>
-																		<path
-																			fill-rule="evenodd"
-																			d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
-																			clip-rule="evenodd"
-																		/>
-																	</svg>
-																</span>
-															</li>
-														{/each}
-													</ul>
+																		<span class="font-normal block truncate">{value}</span>
+																		<span
+																			class="text-white absolute inset-y-0 right-0 flex items-center pr-4"
+																		>
+																			<!-- Heroicon name: mini/check -->
+																			<svg
+																				class="h-5 w-5"
+																				xmlns="http://www.w3.org/2000/svg"
+																				viewBox="0 0 20 20"
+																				fill="currentColor"
+																				aria-hidden="true"
+																			>
+																				<path
+																					fill-rule="evenodd"
+																					d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
+																					clip-rule="evenodd"
+																				/>
+																			</svg>
+																		</span>
+																	</button>
+																</li>
+															{/each}
+														</ul>
+													</div>
 												{/if}
 											</div>
 										</div>
