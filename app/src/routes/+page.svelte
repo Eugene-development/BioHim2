@@ -10,16 +10,16 @@
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
 	const changeVisibleSelectBrand = () => {
-		console.log(123);
 		selectBrand.update(invert);
 	};
 	const changeVisibleSelectContainer = () => {
-		console.log(456);
 		selectContainer.update(invert);
 	};
 
-	const closeVisibleSelectedContainer = () => selectContainer.update(invertToFalse);
-	const closeVisibleSelectedBrand = () => selectBrand.update(invertToFalse);
+	const closeVisibleSelected = () => {
+		selectContainer.update(invertToFalse);
+		selectBrand.update(invertToFalse);
+	};
 
 	// const test = () => console.log(123);
 
@@ -465,7 +465,7 @@
 												</button>
 
 												{#if $selectBrand}
-													<div on:outclick={closeVisibleSelectedBrand} use:clickOutside>
+													<div on:outclick={closeVisibleSelected} use:clickOutside>
 														<ul
 															class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm border-2 border-cyan-500"
 															tabindex="-1"
@@ -546,7 +546,7 @@
 												</button>
 
 												{#if $selectContainer}
-													<div on:outclick={closeVisibleSelectedContainer} use:clickOutside>
+													<div on:outclick={closeVisibleSelected} use:clickOutside>
 														<ul
 															class="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm border-2 border-cyan-500"
 															tabindex="-1"
