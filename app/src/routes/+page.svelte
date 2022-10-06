@@ -9,13 +9,16 @@
 
 	const changeVisibleFormEmail = () => formEmail.update(invert);
 	const changeVisibleMobileMenu = () => mobileMenu.update(invert);
-	const changeVisibleSelectBrand = () => selectBrand.update(invert);
-	const changeVisibleSelectContainer = () => selectContainer.update(invert);
-
-	const closeVisibleSelected = () => {
-		selectBrand.update(invertToFalse);
+	const changeVisibleSelectBrand = () => {
+		selectBrand.update(invert);
 		selectContainer.update(invertToFalse);
 	};
+	const changeVisibleSelectContainer = () => {
+		selectContainer.update(invert);
+		selectBrand.update(invertToFalse);
+	};
+
+	const closeVisibleSelected = () => {};
 
 	// const test = () => console.log(123);
 
@@ -428,7 +431,7 @@
 										on:submit|preventDefault|once={sendEmail}
 										class="sm:mx-auto sm:max-w-xl lg:mx-0"
 									>
-										<div class="my-3" on:outclick={closeVisibleSelected} use:clickOutside>
+										<div class="my-3">
 											<div class="relative mt-1" value={brandSelected}>
 												<button
 													on:click={changeVisibleSelectBrand}
@@ -503,8 +506,13 @@
 												{/if}
 											</div>
 										</div>
-										<div class="my-3" on:outclick={closeVisibleSelected} use:clickOutside>
+										<div class="my-3">
 											<div class="relative mt-1">
+												<!-- <div
+												on:outclick={closeVisibleSelected}
+												use:clickOutside
+												class="relative mt-1"
+											> -->
 												<button
 													on:click={changeVisibleSelectContainer}
 													required
