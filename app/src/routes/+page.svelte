@@ -621,7 +621,7 @@
 														class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														type="submit"
 													>
-														Отправить запрос
+														Отправить запрос на цену
 													</button>
 												</div>
 											{:else}
@@ -633,7 +633,7 @@
 											{/if}
 										</div>
 										<p class="mt-3 text-sm text-gray-300 sm:mt-4">
-											Отправьте вашу почту и получите актуальную цену на перекись водорода.
+											Отправьте ваш запрос и получите актуальную цену на перекись водорода.
 										</p>
 									</form>
 								</div>
