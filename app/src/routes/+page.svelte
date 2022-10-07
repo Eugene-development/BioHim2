@@ -128,9 +128,8 @@
 						stroke-linejoin="round"
 					/>
 				</svg>
-				<a
-					class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
-					href="tel:+79023033654">+7 (495) 080-81-01</a
+				<span class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
+					>+7 (495) 080-81-01</span
 				>
 			</div>
 
@@ -1207,11 +1206,22 @@
 						<a href="#5" class="text-base text-gray-700"> О нас </a>
 					</div>
 				</nav>
+
 				<p class="mt-8 text-center text-base text-gray-400">
-					&copy; 2015-2022. Компания ООО ТК "ФОРВАРД ЛАЙН"
+					<span>
+						&copy; 2015-2022. Компания ООО ТК "ФОРВАРД ЛАЙН"
+
+						<a
+							class="rounded-md pl-1 text-xs font-medium text-gray-400 sm:text-base md:text-lg"
+							href="tel:+74950808101">+7 (495) 080-81-01</a
+						>
+					</span>
+
 					<br />Обслуживание сайта 8 (495) 147-55-50
 				</p>
 			</div>
 		</footer>
 	</div>
 </div>
+
+<div class="flex " />
