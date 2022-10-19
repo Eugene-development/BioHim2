@@ -74,21 +74,21 @@
 		'Техническая перекись водорода применяются в разных отраслях промышленности и в быту';
 	const b_text_v2 = 'Техническая перекись водорода';
 
-	// export let content = {
-	// 	title,
-	// 	description,
-	// 	main_text,
-	// 	a_text,
-	// 	b_text
-	// };
-
 	export let content = {
-		title: title_v2,
-		description: description_v2,
-		main_text: main_text_v2,
-		a_text: a_text_v2,
-		b_text: b_text_v2
+		title,
+		description,
+		main_text,
+		a_text,
+		b_text
 	};
+
+	// export let content = {
+	// 	title: title_v2,
+	// 	description: description_v2,
+	// 	main_text: main_text_v2,
+	// 	a_text: a_text_v2,
+	// 	b_text: b_text_v2
+	// };
 </script>
 
 <svelte:head>
