@@ -7,9 +7,7 @@ services:
       dockerfile: ./docker/node/Dockerfile
     container_name: "${COMPOSE_PROJECT_NAME}_PROJECT"
     restart: always
-    command:
-      "npm run start"
-
+    command: "npm run start"
 
   nginx:
     image: nginx:1.13
