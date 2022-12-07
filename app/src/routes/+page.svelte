@@ -129,7 +129,7 @@
 					/>
 				</svg>
 				<span class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
-					>+7 (495) 080-81-01</span
+					>+7 (495) 080-80-80</span
 				>
 			</div>
 
@@ -150,7 +150,7 @@
 				</svg>
 				<a
 					class="rounded-md pl-1 text-xs font-medium text-gray-100 sm:text-base md:text-lg"
-					href="tel:+79306888862">biohim.org@yandex.ru</a
+					href="tel:+79306888862">info@biohim.org</a
 				>
 			</div>
 		</div>
@@ -414,7 +414,8 @@
 								<h1
 									class="mt-4 text-2xl font-bold tracking-tight text-white sm:mt-5 sm:text-4xl lg:mt-6"
 								>
-									<span class="block text-cyan-100">ООО ТК "ФОРВАРД ЛАЙН"</span>
+									<span class="block text-cyan-100">ООО ТК "xxxx"</span>
+									<!-- <span class="block text-cyan-100">ООО ТК "ФОРВАРД ЛАЙН"</span> -->
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<!-- TODO moderator -->
@@ -1002,13 +1003,18 @@
 										сотрудничеству на постоянной основе.
 									</p>
 									<p class="mt-6 text-base text-gray-700">
+										Юридический адрес: Нижегородская область, xxxxxxx
+									</p>
+									<!-- <p class="mt-6 text-base text-gray-700">
 										Юридический адрес: Нижегородская область, г. Дзержинск, б-р Мира д. 27а, офис
 										302
-									</p>
-									<p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p>
-									<p class="mt-6 text-base text-gray-700">
+									</p> -->
+									<p class="mt-6 text-base text-gray-700">Директор: xxxxxx</p>
+									<!-- <p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p> -->
+									<p class="mt-6 text-base text-gray-700">Ведущий специалист: xxxxxxx</p>
+									<!-- <p class="mt-6 text-base text-gray-700">
 										Ведущий специалист: Ходаков Игорь Викторович
-									</p>
+									</p> -->
 									<div class="mt-8">
 										<div class="flex items-center">
 											<h3 class="flex-shrink-0 pr-4 bg-white text-2xl font-semibold text-cyan-600">
@@ -1036,7 +1042,8 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">ИНН 5249133142</p>
+												<p class="ml-3 text-sm text-gray-700">ИНН xxxxx</p>
+												<!-- <p class="ml-3 text-sm text-gray-700">ИНН 5249133142</p> -->
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
@@ -1056,7 +1063,8 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">КПП 524901001</p>
+												<p class="ml-3 text-sm text-gray-700">КПП xxxxxxx</p>
+												<!-- <p class="ml-3 text-sm text-gray-700">КПП 524901001</p> -->
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
@@ -1076,7 +1084,8 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">ОГРН 1145249001853</p>
+												<p class="ml-3 text-sm text-gray-700">ОГРН xxxxxxxx</p>
+												<!-- <p class="ml-3 text-sm text-gray-700">ОГРН 1145249001853</p> -->
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
@@ -1209,15 +1218,16 @@
 
 				<p class="mt-8 text-center text-base text-gray-400">
 					<span>
-						&copy; 2015-2022. Компания ООО ТК "ФОРВАРД ЛАЙН"
+						&copy; 2015-2022. Компания ООО ТК "xxxxxx"
+						<!-- &copy; 2015-2022. Компания ООО ТК "ФОРВАРД ЛАЙН" -->
 
 						<a
 							class="rounded-md pl-1 text-xs font-medium text-gray-400 sm:text-base md:text-lg"
-							href="tel:+74950808101">+7 (495) 080-81-01</a
+							href="tel:+8888888888">+7 (495) 088-88-88</a
 						>
 					</span>
 
-					<br />Обслуживание сайта 8 (495) 147-55-50
+					<br />Обслуживание сайта 8 (495) 8888888888
 				</p>
 			</div>
 		</footer>
