@@ -243,7 +243,7 @@
 												/>
 											</svg>
 											<span class="text-gray-50 text-xs sm:text-lg font-bold "
-												>+7 (495) 080-81-01</span
+												>+7 (495) 080-8888</span
 											>
 											<!-- <a href="tel:+74950808101" class="text-gray-50 text-xs sm:text-lg font-bold "
 												>+7 (495) 080-81-01</a
@@ -265,7 +265,7 @@
 													d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
 												/>
 											</svg>
-											<p class="text-gray-50 text-xs sm:text-xl font-bold">biohim.org@yandex.ru</p>
+											<p class="text-gray-50 text-xs sm:text-xl font-bold">info@biohim.org</p>
 										</div>
 									</div>
 								</div>
